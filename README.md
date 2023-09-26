@@ -20,17 +20,28 @@ Esse projeto foi desenvolvido durante a [`Imersão Dados_IA`](https://www.alura.
 ### 🤿 Aula 1: Análise exploratória da base de dados e chatGPT
 #### Introdução 
   A primeira aula da imersão apresenta o Kaggle como plataforma e utiliza uma base de dados de compras da Amazon para realizar uma análise exploratória. Além disso, o ChatGPT é introduzido como uma ferramenta auxiliar na geração de fórmulas básicas no Google Sheets. Foi disponibilizado uma base de dados [`"Amazon Sales Dataset"`](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset) (traduzido para o português, Vendas da Amazon Dataset), do Kaggle, com o intuito de acompanhar e realizar as atividades propostas durante a aula.
-#### Sobre a base de dados "Avaliações"
+#### Sobre a base de dados "Amazon Sales Dataset"
   Na planilha de dados da Amazon, havia as seguintes informações: 
   - product_id: ID do produto
   - product_name: Nome do produto
   - category: Categoria do produto
-  - actual_price: Valor do produto com desconto
-  - product_price: Valor do produto com valor cheio
+  - actual_price: Valor do produto com desconto, em rúpias indianas
+  - product_price: Valor do produto com valor cheio, em rúpias indianas
   - rating: Valor de 0 a 5 avaliando o produto
   - rating_count: Quantidade de pessoas que avaliaram o produto
   - about_product: Descrição do produto
   - product_link: Link do produto na loja da Amazon
+
+  Posteriormente, ao longo das aulas, foi adicionado outras colunas, sendo elas:
+  - category_geral: Categoria principal do produto
+  - subcategory: Subcategoria do produto
+  - actual_price_real: Valor do produto com desconto, em reais
+  - review_title: Título da avaliação
+  - review_content: Conteúdo/descrição da avaliação
+  - review_title_ptbr: Título da avaliação em português
+  - review_content_ptbr: Conteúdo/descrição da avaliação em português
+  - summary_review: Resumo da avaliação
+  - feeling: Sentimento principal da avaliação
 
 #### Desafios propostos
   -	Adicionar a formatação condicional de cores à coluna de porcentagens (no dataset "Amazon Sales Dataset")
@@ -88,6 +99,12 @@ Note que a coluna "percent", que corresponde à porcentagem de desconto sobre o 
 </div>
 
 *• Realizar uma análise exploratória e aplicar as mesmas técnicas utilizando o ChatGPT a uma nova base de dados do Kaggle: Top 1000 IMDb Movies Dataset*
+<div align="center">
+<img width="260" alt="bd_imdb_movies" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d99b91e7-5ae2-4f23-a1eb-cc66629e8976">
+
+  
+
+</div>
 
 
 #### Aula 2:
@@ -113,7 +130,14 @@ Note que a coluna "percent", que corresponde à porcentagem de desconto sobre o 
 #### Pasta "bd_amazon"
 ![base_dados_amazon_dados](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
 ![base_dados_amazon_avaliacoes](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/5891cdf8-330a-4a76-a651-2fb170ef066a)
-
+![image](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/7be95a73-9c3d-4951-8cee-676eafe01529)
+![image](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/ae929b90-1c16-4e2b-b556-7c46417c58d2)
+![image](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/c1faf2ff-c235-453b-96ed-e8a169804daf)
+![image](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/68000ef5-8a25-4d6f-a880-a0872f1264c3)
+![image](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/7523f316-7023-401f-b059-1fcbc29fc266)
+![image](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/9cdf9740-761e-4fd8-a14b-39258b7747fd)
+![image](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/5c7af85f-8eda-4320-b0ef-36f028e56f4f)
+![image](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/20d808de-f7e5-44de-945e-49c2bda1a98a)
 
 ##
 
