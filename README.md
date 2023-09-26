@@ -1,4 +1,4 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=2132a6&height=120&section=header"/>
+<img width=100% alt="blue_waves_head" src="https://capsule-render.vercel.app/api?type=waving&color=2132a6&height=120&section=header"/>
 
 <h3 align="center"> Imersão Dados: Análises com Inteligência Artificial - Alura </h3>
 
@@ -9,7 +9,7 @@
 </div>
 <div>
   <p align="center">
-    <img align="center" width="250" src="/images/diver.png">
+    <img align="center" width="250" alt="mergulhador_fundo_oceano" target="_blank" src="/images/diver.png">
   </p>
 </div>
 
@@ -40,8 +40,8 @@ Esse projeto foi desenvolvido durante a [`Imersão Dados_IA`](https://www.alura.
 #### Introdução
   Na segunda aula da imersão, foi aprofundado ainda mais a utilização do ChatGPT como uma ferramenta auxiliar no Google Sheets e, foi explorado a criação de gráficos, uma habilidade fundamental na visualização de dados. Um destaque importante da aula foi a apresentação de uma nova ferramenta de IA projetada para auxiliar na manipulação e análise de dados, o [`Sheet+`](https://sheetplus.ai), permitindo que os participantes ampliem ainda mais suas capacidades na área de análise de dados, aproveitando o poder da inteligência artificial.
 #### Desafios propostos
-  - Personalizar o gráfico para adicionar as quantidades
-  - Analisar qual o gráfico ideal para o seu caso usando o guia citado pelo Marcell, que está nos links da aula
+  - Personalizar o gráfico para adicionar as quantidades no gráfico
+  - Analisar qual o gráfico ideal para os demais gráficos a serem adicionados, usando o guia citado pelo instrutor Marcell, CEO da PM3 
   - Realizar uma análise exploratória e aplicar as mesmas técnicas, incluindo a criação de gráficos, a uma nova base de dados do Kaggle: base de dados de hoteis chamada [`Hotels in Munnar, Kerala (MakeMyTrip)`](https://www.kaggle.com/datasets/andrewgeorgeissac/hotels-in-munnar-kerala).
 ##
 ### 🤿 Aula 3: Conectando bases de dados e usando a extensão do ChatGPT
@@ -58,7 +58,7 @@ Esse projeto foi desenvolvido durante a [`Imersão Dados_IA`](https://www.alura.
   - review_content: Conteúdo da crítica
   - img_link: Link da imagem do produto
 #### Desafio proposto
-- Gerar a tradução das críticas e fazer uma análise de sentimentos das mesmas, usando a extensão SheetGPT, em uma nova base de dados do Kaggle: [`Threads, an Instagram app Reviews`](https://www.kaggle.com/datasets/saloni1712/threads-an-instagram-app-reviews), base de críticas do aplicativo Threads.
+- Gerar a tradução das críticas e fazer uma análise de sentimentos das mesmas, usando a extensão SheetGPT, em uma nova base de dados do Kaggle: [`Threads, an Instagram app Reviews`](https://www.kaggle.com/datasets/saloni1712/threads-an-instagram-app-reviews), base de críticas do aplicativo Threads
 ##
 ### 🤿 Aula 4: Manipule planilhas com Phyton Pandas e o ChatGPT
 #### Introdução 
@@ -70,10 +70,51 @@ Esse projeto foi desenvolvido durante a [`Imersão Dados_IA`](https://www.alura.
 - Conectar as duas planilhas usadas nas aulas anteriores, como fizemos com o VLOOKUP, mas usando Python e Pandas
 - Colocar a base já corrigida na biblioteca Pandas Profiling citada no conteúdo extra
 ##
+![peixes_no_fundo_do_oceano](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/413095a6-bd6f-4d91-bea1-6a566214469f)
+##
 ### 💻 Resultados 
-#### Aula 1
+#### Aula 1:
+*• Adicionar a formatação condicional de cores à coluna de porcentagens (no dataset "Amazon Sales Dataset")*
+<div></div>
+Visualização da base de dados:
+<div>
+  
+![base_dados_amazon_dados](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
+</div>
+
+Note que a coluna "percent", que corresponde à porcentagem de desconto sobre o preço do produto, está colorida, e os tons da cor verde variam de acordo com o valor da célula. Isso se dá por conta da formatação condicional na célula. Optei por fazer quatro regras, sendo elas:
+<div align="center">
+<img width="260" alt="bd_amazon_formatacao_condicional" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/95b2b6f9-2931-4664-8e6e-2f6b00fbbd2c">
+</div>
+
+*• Realizar uma análise exploratória e aplicar as mesmas técnicas utilizando o ChatGPT a uma nova base de dados do Kaggle: Top 1000 IMDb Movies Dataset*
+
+
+#### Aula 2:
+*• Personalizar o gráfico para adicionar as quantidades no gráfico*
+*• Analisar qual o gráfico ideal para os demais gráficos a serem adicionados, usando o guia citado pelo instrutor Marcell, CEO da PM3*
+*• Realizar uma análise exploratória e aplicar as mesmas técnicas, incluindo a criação de gráficos, a uma nova base de dados do Kaggle: base de dados de hoteis chamada Hotels in Munnar, Kerala (MakeMyTrip)*
+
+#### Aula 3:
+*• Gerar a tradução das críticas e fazer uma análise de sentimentos das mesmas, usando a extensão SheetGPT, em uma nova base de dados do Kaggle: Threads, an Instagram app Reviews*
+
+#### Aula 4:
+*• Usando o Google Colab com Python e Pandas, criar uma nova coluna chamada “actual_price_real”, que será o valor da coluna “actual_price”, originalmente em rúpias indianas, convertido para reais*
+*• Realizar as análises que foram executadas nas aulas anteriores usando o Google Sheets, mas agora utilizando Python e Pandas no Google Colab*
+*• Conectar as duas planilhas usadas nas aulas anteriores, como fizemos com o VLOOKUP, mas usando Python e Pandas*
+*• Colocar a base já corrigida na biblioteca Pandas Profiling citada no conteúdo extra*
+
+
+ 
 ##
 ### 📎 Organização do repositório
+#### Overview
+
+#### Pasta "bd_amazon"
+![base_dados_amazon_dados](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
+![base_dados_amazon_avaliacoes](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/5891cdf8-330a-4a76-a651-2fb170ef066a)
+
+
 ##
 
 ### 🔗 Hashtags
@@ -82,5 +123,5 @@ Esse projeto foi desenvolvido durante a [`Imersão Dados_IA`](https://www.alura.
 
 
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=2132a6&height=120&section=footer"/>
+<img width=100% alt="blue_waves_end" src="https://capsule-render.vercel.app/api?type=waving&color=2132a6&height=120&section=footer"/>
 
