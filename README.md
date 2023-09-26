@@ -15,7 +15,7 @@
 
 ##
 ### 📁 Descrição do projeto
-Esse projeto foi desenvolvido durante a [`Imersão Dados_IA`](https://www.alura.com.br/imersao-dados-ia), disponibilizada pela [`Alura`](https://www.alura.com.br/), com o objetivo de capacitar profissionais e entusiastas da análise de dados a aprimorar suas habilidades em Excel, Python e ferramentas de IA. Dentre algumas tecnologias apresentadas pelos instrutores, estão: ChatGPT, Google Sheets, Google Colab e Bing.AI. Foi uma experiência enriquecedora, à medida que eu adquiria conhecimento sobre o impacto significativo que essas tecnologias estão causando no mundo e descobria maneiras relevantes de aplicá-las.
+Esse projeto foi desenvolvido durante a [`Imersão Dados_IA`](https://www.alura.com.br/imersao-dados-ia), disponibilizada pela [`Alura`](https://www.alura.com.br/), com o objetivo de introduzir a habilidade e técnicas de análise de dados a pessoas interessadas por tecnologia, afim de desenvolver e aprimorar habilidades em Excel, Python e ferramentas de IA. Dentre algumas tecnologias apresentadas pelos instrutores, estão: ChatGPT, Google Sheets, Google Colab e Bing.AI. Foi uma imersão que pontuou sobre o impacto significativo que as inteligências artificiais estão causando no mundo e as diversas maneiras de aplicá-las.
 ##
 ### 🤿 Aula 1: Análise exploratória da base de dados e chatGPT
 #### Introdução 
@@ -27,6 +27,12 @@ Esse projeto foi desenvolvido durante a [`Imersão Dados_IA`](https://www.alura.
 -	Realizar uma análise exploratória e aplicar as mesmas técnicas utilizando o ChatGPT a uma nova base de dados do Kaggle: [`Top 1000 IMDb Movies Dataset`](https://www.kaggle.com/datasets/inductiveanks/top-1000-imdb-movies-dataset) 
 ##
 ### 🤿 Aula 2: Manipule planilhas e crie gráficos com ajuda da IA
+#### Introdução
+  Na segunda aula do curso, foi aprofundado ainda mais a utilização do ChatGPT como uma ferramenta auxiliar no Google Sheets e, foi explorado a criação de gráficos, uma habilidade fundamental na visualização de dados. Um destaque importante da aula foi a apresentação de uma nova ferramenta de IA projetada para auxiliar na manipulação e análise de dados, o [`Sheet+`](https://sheetplus.ai), permitindo que os participantes ampliem ainda mais suas capacidades na área de análise de dados, aproveitando o poder da inteligência artificial.
+#### Desafios propostos
+- Personalizar o gráfico para adicionar as quantidades
+- Analisar qual o gráfico ideal para o seu caso usando o guia citado pelo Marcell, que está nos links da aula
+- Realizar uma análise exploratória e aplicar as mesmas técnicas, incluindo a criação de gráficos, a uma nova base de dados do Kaggle: base de dados de hoteis chamada [`Hotels in Munnar, Kerala (MakeMyTrip)`](https://www.kaggle.com/datasets/andrewgeorgeissac/hotels-in-munnar-kerala).
 
 
 
