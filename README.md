@@ -100,7 +100,7 @@ Note que a coluna "percent", que corresponde à porcentagem de desconto sobre o 
 
 *• Realizar uma análise exploratória e aplicar as mesmas técnicas utilizando o ChatGPT a uma nova base de dados do Kaggle: Top 1000 IMDb Movies Dataset*
 <div align="center">
-<img width="260" alt="bd_imdb_movies" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d99b91e7-5ae2-4f23-a1eb-cc66629e8976">
+<img alt="bd_imdb_movies" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d99b91e7-5ae2-4f23-a1eb-cc66629e8976">
 
   
 
