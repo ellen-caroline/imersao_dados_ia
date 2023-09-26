@@ -76,7 +76,7 @@ Esse projeto foi desenvolvido durante a [`Imersão Dados_IA`](https://www.alura.
 ### 📎 Organização do repositório
 ##
 
-#### 🔗 Hashtags
+### 🔗 Hashtags
 #alura #alura_dados_ia #7DaysOfCode
 
 
