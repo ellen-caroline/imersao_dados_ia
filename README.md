@@ -84,38 +84,69 @@ Esse projeto foi desenvolvido durante a [`Imersão Dados_IA`](https://www.alura.
 ![peixes_no_fundo_do_oceano](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/413095a6-bd6f-4d91-bea1-6a566214469f)
 ##
 ### 💻 Resultados 
-#### Aula 1:
+#### 👩‍💻 Aula 1:
 *• Adicionar a formatação condicional de cores à coluna de porcentagens (no dataset "Amazon Sales Dataset")*
-<div></div>
-Visualização da base de dados:
+<div>
+  Visualização:
+  <div>
+    
+  ![base_dados_amazon_dados](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
+  </div>
+  
+  Note que a coluna "percent", que corresponde à porcentagem de desconto sobre o preço do produto, está colorida, e os tons da cor verde variam de acordo com o valor da célula. Isso se dá por conta da formatação condicional na célula. Optei por fazer quatro regras, sendo elas:
+  <div align="center">
+    <img width="260" alt="bd_amazon_formatacao_condicional" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/95b2b6f9-2931-4664-8e6e-2f6b00fbbd2c">
+  </div>
+</div>
 <div>
   
-![base_dados_amazon_dados](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
+  *• Realizar uma análise exploratória e aplicar as mesmas técnicas utilizando o ChatGPT a uma nova base de dados do Kaggle: Top 1000 IMDb Movies Dataset*
+    Seguindo as instruções da aula da imersão, foi explicado como escrever um prompt para que o ChatGPT dê as instruções de como realizar uma análise exploratória no Google Sheets. A dica é escrever o prompt fornecendo o máximo de informações possíveis sobre a base de dados, para que não haja outras interpretações, dessa forma, a resposta será mais concisa e alinhada com a dúvida.
+  <div align="center">
+    <img width="400" alt="chatGPT_instrucoes1" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/226f5200-cfe5-4df7-a290-6c75e4f50d74">
+  </div>
+      Logo após a importação e análise das colunas, procurei limpar os dados contidos nas colunas da maneira mais correta possível. Havia números em branco nas colunas "Metascore of Movie" e "Gross", estudei técnicas para células em branco. Além disso, depois da realizar a limpeza, optei por adicionar mais informação na base de dados, sendo elas: nome "Position" na coluna contendo as posições das classificações dos filmes, coluna "Movie Name Language", coluna "Genres", coluna "Main Genre", coluna "Second Genre" e coluna "Third Genre". 
+  - Antes das modificações
+  <div align="center">
+    <img alt="bd_imdb_movies_sem_modificacoes" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/57ab6f74-ab6f-48e0-bdfa-ff50f5683ee5">
+  </div>
+  - Depois das modificações
+  <div align="center">
+    <img alt="bd_imdb_movies" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d99b91e7-5ae2-4f23-a1eb-cc66629e8976">
+  </div>
+Informações da base de dados:
+ <a> • Position: posição da classificação do filme (de 1 a 1000) </a>
+ <a> • Movie Name: Nome do filme </a>
+ <a> • Movie Name Language: Idioma do nome do filme </a>
+ <a> • Watch Time: Duração do filme, em minutos </a>
+ <a> • Genres: Gêneros dos filmes </a>
+ <a> • Main Genre: Gênero principal do filme </a>
+ <a> • Second Genre: Segundo gênero mais predominante do filme </a>
+ <a> • Third Genre: Terceiro gênero mais predominante do filme </a>
+ <a> • Movie Rating: Nota do filme de zero (0) à dez (10) </a>
+ <a> • Metascore of Movie: É uma pontuação atribuída por críticos de cinema para avaliar a qualidade e o mérito de um filme. Essa pontuação vai de zero (0) à cem (100) </a>
+ <a> • Gross: Representa as arrecadações brutas, em dinheiro, que um filme ganhou em bilheteria em todo o mundo </a>
+ <a> • Votes: Quantidade de votos recebidos por usuários do IMDb </a>
+ <a> • Director: Diretor do filme (será preenchido em breve, e gráficos com essas informações serão desenvolvidos) </a> 
+ <a> • Description: Descrição/Sinopse do filme </a>
+
+  <div align="center">
+    <img width="400" alt="chatGPT_instrucoes2" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/4f18a7f7-18ab-4d22-9196-ea2ca7e3eead">
+  </div>
+  <div align="center">
+    <img width="400" alt="chatGPT_instrucoes3" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d31e37f3-9eb4-4c8f-9a2d-ca06a6603062">
+  </div>
 </div>
 
-Note que a coluna "percent", que corresponde à porcentagem de desconto sobre o preço do produto, está colorida, e os tons da cor verde variam de acordo com o valor da célula. Isso se dá por conta da formatação condicional na célula. Optei por fazer quatro regras, sendo elas:
-<div align="center">
-<img width="260" alt="bd_amazon_formatacao_condicional" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/95b2b6f9-2931-4664-8e6e-2f6b00fbbd2c">
-</div>
-
-*• Realizar uma análise exploratória e aplicar as mesmas técnicas utilizando o ChatGPT a uma nova base de dados do Kaggle: Top 1000 IMDb Movies Dataset*
-<div align="center">
-<img alt="bd_imdb_movies" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d99b91e7-5ae2-4f23-a1eb-cc66629e8976">
-
-  
-
-</div>
-
-
-#### Aula 2:
+#### 👩‍💻 Aula 2:
 *• Personalizar o gráfico para adicionar as quantidades no gráfico*
 *• Analisar qual o gráfico ideal para os demais gráficos a serem adicionados, usando o guia citado pelo instrutor Marcell, CEO da PM3*
 *• Realizar uma análise exploratória e aplicar as mesmas técnicas, incluindo a criação de gráficos, a uma nova base de dados do Kaggle: base de dados de hoteis chamada Hotels in Munnar, Kerala (MakeMyTrip)*
 
-#### Aula 3:
+#### 👩‍💻 Aula 3:
 *• Gerar a tradução das críticas e fazer uma análise de sentimentos das mesmas, usando a extensão SheetGPT, em uma nova base de dados do Kaggle: Threads, an Instagram app Reviews*
 
-#### Aula 4:
+#### 👩‍💻 Aula 4:
 *• Usando o Google Colab com Python e Pandas, criar uma nova coluna chamada “actual_price_real”, que será o valor da coluna “actual_price”, originalmente em rúpias indianas, convertido para reais*
 *• Realizar as análises que foram executadas nas aulas anteriores usando o Google Sheets, mas agora utilizando Python e Pandas no Google Colab*
 *• Conectar as duas planilhas usadas nas aulas anteriores, como fizemos com o VLOOKUP, mas usando Python e Pandas*
@@ -140,7 +171,13 @@ Note que a coluna "percent", que corresponde à porcentagem de desconto sobre o 
 ![image](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/20d808de-f7e5-44de-945e-49c2bda1a98a)
 
 ##
+### 🔗 Melhorias futuras para o projeto
+#### bd_imdb
+- Adicionar a coluna "Director"
+- Adicionar nuvem de palavras com os gêneros que mais aparecem na base de dados
+- Incluir e desenvolver um elemento visual para mostrar quais são os diretores que mais apareceram na base de dados, evidenciando quem fez os filmes mais bem avaliados
 
+##
 ### 🔗 Hashtags
 #alura #alura_dados_ia #7DaysOfCode
 
