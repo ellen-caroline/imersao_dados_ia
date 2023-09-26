@@ -70,11 +70,11 @@ Esse projeto foi desenvolvido durante a [`Imersão Dados_IA`](https://www.alura.
 - Conectar as duas planilhas usadas nas aulas anteriores, como fizemos com o VLOOKUP, mas usando Python e Pandas
 - Colocar a base já corrigida na biblioteca Pandas Profiling citada no conteúdo extra
 ##
-### Resultados
+### 💻 Resultados 
 #### Aula 1
 ##
 
-##### Hashtags
+#### 📎 Hashtags
 #alura #alura_dados_ia #7DaysOfCode
 
 
