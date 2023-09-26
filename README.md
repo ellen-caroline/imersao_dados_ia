@@ -19,7 +19,7 @@ Esse projeto foi desenvolvido durante a [`Imersão Dados_IA`](https://www.alura.
 ##
 ### 🤿 Aula 1: Análise exploratória da base de dados e chatGPT
 #### Introdução 
-  A primeira aula do curso apresenta o Kaggle como plataforma e utiliza uma base de dados de compras da Amazon para realizar uma análise exploratória. Além disso, o ChatGPT é introduzido como uma ferramenta auxiliar na geração de fórmulas básicas no Google Sheets. Foi disponibilizado uma base de dados [`"Amazon Sales Dataset"`](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset) (traduzido para o português, Vendas da Amazon Dataset), do Kaggle, com o intuito de acompanhar e realizar as atividades propostas durante a aula.
+  A primeira aula da imersão apresenta o Kaggle como plataforma e utiliza uma base de dados de compras da Amazon para realizar uma análise exploratória. Além disso, o ChatGPT é introduzido como uma ferramenta auxiliar na geração de fórmulas básicas no Google Sheets. Foi disponibilizado uma base de dados [`"Amazon Sales Dataset"`](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset) (traduzido para o português, Vendas da Amazon Dataset), do Kaggle, com o intuito de acompanhar e realizar as atividades propostas durante a aula.
 #### Sobre a base de dados "Avaliações"
   Na planilha de dados da Amazon, havia as seguintes informações: 
   - product_id: ID do produto
@@ -38,7 +38,7 @@ Esse projeto foi desenvolvido durante a [`Imersão Dados_IA`](https://www.alura.
 ##
 ### 🤿 Aula 2: Manipule planilhas e crie gráficos com ajuda da IA
 #### Introdução
-  Na segunda aula do curso, foi aprofundado ainda mais a utilização do ChatGPT como uma ferramenta auxiliar no Google Sheets e, foi explorado a criação de gráficos, uma habilidade fundamental na visualização de dados. Um destaque importante da aula foi a apresentação de uma nova ferramenta de IA projetada para auxiliar na manipulação e análise de dados, o [`Sheet+`](https://sheetplus.ai), permitindo que os participantes ampliem ainda mais suas capacidades na área de análise de dados, aproveitando o poder da inteligência artificial.
+  Na segunda aula da imersão, foi aprofundado ainda mais a utilização do ChatGPT como uma ferramenta auxiliar no Google Sheets e, foi explorado a criação de gráficos, uma habilidade fundamental na visualização de dados. Um destaque importante da aula foi a apresentação de uma nova ferramenta de IA projetada para auxiliar na manipulação e análise de dados, o [`Sheet+`](https://sheetplus.ai), permitindo que os participantes ampliem ainda mais suas capacidades na área de análise de dados, aproveitando o poder da inteligência artificial.
 #### Desafios propostos
   - Personalizar o gráfico para adicionar as quantidades
   - Analisar qual o gráfico ideal para o seu caso usando o guia citado pelo Marcell, que está nos links da aula
