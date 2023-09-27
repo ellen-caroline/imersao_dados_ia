@@ -5,7 +5,7 @@
 ##
 <div align="center">
   <img align="center" width="70" alt="chatGPT-badge" src="https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" target="_blank">
-  <img align="center" width="70" alt="kaggle-badge" src="https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white" target="_blank">
+  <img align="center" width="70" alt="kaggle-badge" src="https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white" target="_blank"><br>
 </div>
 <div style="padding: 150">
   <p align="center">
@@ -19,7 +19,8 @@
 ##
 ### 🤿 Aula 1: Análise exploratória da base de dados e chatGPT
 #### Introdução 
-  A primeira aula da imersão apresenta o Kaggle como plataforma e utiliza uma base de dados de compras da Amazon para realizar uma análise exploratória. Além disso, o ChatGPT é introduzido como uma ferramenta auxiliar na geração de fórmulas básicas no Google Sheets. Foi disponibilizado uma base de dados [`"Amazon Sales Dataset"`](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset) (traduzido para o português, Vendas da Amazon Dataset), do Kaggle, com o intuito de acompanhar e realizar as atividades propostas durante a aula.
+  A primeira aula da imersão apresenta o Kaggle como plataforma e utiliza uma base de dados de compras da Amazon para realizar uma análise exploratória. Além disso, o ChatGPT é introduzido como uma ferramenta auxiliar na geração de fórmulas básicas no Google Sheets. Foi disponibilizado uma base de dados [`"Amazon Sales Dataset"`](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset) (traduzido para o português, Vendas da Amazon Dataset), do Kaggle, com o intuito de acompanhar e realizar as atividades propostas durante a aula. 
+<br>
 #### Sobre a base de dados "Amazon Sales Dataset"
   Na planilha de dados da Amazon, havia as seguintes informações: 
   - product_id: ID do produto
@@ -84,56 +85,63 @@
 ![peixes_no_fundo_do_oceano](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/413095a6-bd6f-4d91-bea1-6a566214469f)
 ##
 ### 💻 Resultados 
+<br>
+
 #### 👩‍💻 Aula 1:
+
 *• Adicionar a formatação condicional de cores à coluna de porcentagens (no dataset "Amazon Sales Dataset")*
 <div>
-  Visualização:
   <div>
     
   ![base_dados_amazon_dados](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
-  </div>
+  </div> <br>
   
   Note que a coluna "percent", que corresponde à porcentagem de desconto sobre o preço do produto, está colorida, e os tons da cor verde variam de acordo com o valor da célula. Isso se dá por conta da formatação condicional na célula. Optei por fazer quatro regras, sendo elas:
   <div align="center">
+    <br>
     <img width="260" alt="bd_amazon_formatacao_condicional" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/95b2b6f9-2931-4664-8e6e-2f6b00fbbd2c" target="_blank">
-  </div>
+  </div> <br><br>
 </div>
 <div>
     
   *• Realizar uma análise exploratória e aplicar as mesmas técnicas utilizando o ChatGPT a uma nova base de dados do Kaggle: Top 1000 IMDb Movies Dataset*
-  <div>
+  <div> <br>
     Seguindo as instruções da aula da imersão, foi explicado como escrever um prompt para que o ChatGPT dê as instruções de como realizar uma análise exploratória no Google Sheets. A dica é escrever o prompt fornecendo o máximo de informações possíveis sobre a base de dados, para que não haja outras interpretações, dessa forma, a resposta será mais concisa e alinhada com a dúvida.
   </div>
-  <div align="center">
+  <div align="center"> <br>
     <img width="400" alt="chatGPT_instrucoes1" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/226f5200-cfe5-4df7-a290-6c75e4f50d74" target="_blank">
-  </div>
+  </div> <br>
       Logo após a importação e análise das colunas, procurei limpar os dados contidos nas colunas da maneira mais correta possível. Havia números em branco nas colunas "Metascore of Movie" e "Gross", estudei o que pode ser colocado em casos de dados vazios, e decidi colocar "No information" em todas as células vazias. Outro problema encontrado foi a formatação dos números da coluna "Gross" e foi trocado a formatação para número do tipo moeda. Além disso, depois da realizar a limpeza, optei por adicionar mais informação na base de dados, sendo elas: nome "Position" na coluna contendo as posições das classificações dos filmes, coluna "Movie Name Language", coluna "Genres", coluna "Main Genre", coluna "Second Genre" e coluna "Third Genre". Também, Para facilitar a visualização de alguns dados, adicionei formatação condicional às colunas "Movie Rating" e "Metascore of Movie".
-      
-  - Antes das modificações
+  <div></div><br>
+  
+- Antes das modificações
 
-  <div align="center">
+  <div align="center"> <br>
     <img alt="bd_imdb_movies_sem_modificacoes" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/57ab6f74-ab6f-48e0-bdfa-ff50f5683ee5" target="_blank">
-  </div>
+  </div> <br>
   
- - Depois das modificações
-
-  <div align="center">
+- Depois das modificações
+  
+  <div align="center"> <br>
     <img alt="bd_imdb_movies" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d99b91e7-5ae2-4f23-a1eb-cc66629e8976" target="_blank">
-  </div>
-  Mais detalhes de cada modificação:
-  - Coluna "Movie Name Language":
+  </div> <br><br>
+  Mais detalhes de cada modificação: <br><br>
+- Coluna "Movie Name Language": <br>
   
-  Foi feita com o comando "[`DETECT LANGUAGE`](https://support.google.com/docs/answer/3093278?hl=en)" e "[`MAIÚSCULA`](https://support.google.com/docs/answer/3094219?hl=pt-BR)".
+  Foi feita com o comando "[`DETECT LANGUAGE`](https://support.google.com/docs/answer/3093278?hl=en)" e "[`MAIÚSCULA`](https://support.google.com/docs/answer/3094219?hl=pt-BR)". <br>
   <div align="center">
   <img width="450" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/755093c7-38a3-47e1-a68a-7528fd54dea8">
-  </div>
+  </div> <br>
 
-  - Coluna "Genres"
-  Procurei outra base de dados que possuísse os gêneros dos filmes e acabei encontrando uma chamada "[`"IMDB movies dataset"`]"(https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset) que continha a maioria dos filmes da base de dados original, fiz um "[`VLOOKUP`](https://support.google.com/docs/answer/3093318?hl=en)", mais conhecido como PROCV, para adicionar os gêneros existentes da nova base de dados para a antiga, e os que ficaram em branco, acabei colocando manualmente mesmo.
+  - Coluna "Genres" <br><br>
+  Procurei outra base de dados que possuísse os gêneros dos filmes e acabei encontrando uma chamada "[`"IMDB movies dataset"`](https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset)" que continha a maioria dos filmes da base de dados original, fiz um "[`VLOOKUP`](https://support.google.com/docs/answer/3093318?hl=en)", mais conhecido como PROCV, para adicionar os gêneros existentes da nova base de dados para a antiga, e os que ficaram em branco, acabei colocando manualmente mesmo. <br><br>
 
-    - Coluna "Main Genre"
-    - Coluna "Second Genre"
-    - Coluna "Third Genre"
+    - Coluna "Main Genre" <br>
+    <br>
+    - Coluna "Second Genre" <br>
+    <br>
+    - Coluna "Third Genre" <br>
+    <br>
 
   
   <div>
@@ -155,7 +163,7 @@ Informações da base de dados:
 - Description: Descrição/Sinopse do filme 
 
 
-  <div align="center">
+  <br> <div align="center">
     <img width="400" alt="chatGPT_instrucoes2" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/4f18a7f7-18ab-4d22-9196-ea2ca7e3eead" target="_blank">
   </div>
   <div align="center">
@@ -163,7 +171,7 @@ Informações da base de dados:
   </div>
   
 </div>
-</div>
+</div> <br>
 
 #### 👩‍💻 Aula 2:
 <div>
