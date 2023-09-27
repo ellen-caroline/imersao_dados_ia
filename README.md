@@ -99,7 +99,6 @@
   </div>
 </div>
 <div>
-  <div>
     
   *• Realizar uma análise exploratória e aplicar as mesmas técnicas utilizando o ChatGPT a uma nova base de dados do Kaggle: Top 1000 IMDb Movies Dataset*
   <div>
@@ -108,34 +107,53 @@
   <div align="center">
     <img width="400" alt="chatGPT_instrucoes1" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/226f5200-cfe5-4df7-a290-6c75e4f50d74" target="_blank">
   </div>
-      Logo após a importação e análise das colunas, procurei limpar os dados contidos nas colunas da maneira mais correta possível. Havia números em branco nas colunas "Metascore of Movie" e "Gross", estudei o que pode ser colocado em casos de dados vazios, e decidi colocar "No information" em todas as células vazias. Outro problema encontrado foi a formatação dos números da coluna "Gross" e foi trocado a formatação para número do tipo moeda. Além disso, depois da realizar a limpeza, optei por adicionar mais informação na base de dados, sendo elas: nome "Position" na coluna contendo as posições das classificações dos filmes, coluna "Movie Name Language", coluna "Genres", coluna "Main Genre", coluna "Second Genre" e coluna "Third Genre". 
-- Antes das modificações
+      Logo após a importação e análise das colunas, procurei limpar os dados contidos nas colunas da maneira mais correta possível. Havia números em branco nas colunas "Metascore of Movie" e "Gross", estudei o que pode ser colocado em casos de dados vazios, e decidi colocar "No information" em todas as células vazias. Outro problema encontrado foi a formatação dos números da coluna "Gross" e foi trocado a formatação para número do tipo moeda. Além disso, depois da realizar a limpeza, optei por adicionar mais informação na base de dados, sendo elas: nome "Position" na coluna contendo as posições das classificações dos filmes, coluna "Movie Name Language", coluna "Genres", coluna "Main Genre", coluna "Second Genre" e coluna "Third Genre". Também, Para facilitar a visualização de alguns dados, adicionei formatação condicional às colunas "Movie Rating" e "Metascore of Movie".
+      
+  - Antes das modificações
+
   <div align="center">
     <img alt="bd_imdb_movies_sem_modificacoes" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/57ab6f74-ab6f-48e0-bdfa-ff50f5683ee5" target="_blank">
   </div>
-- Depois das modificações
+  
+ - Depois das modificações
+
   <div align="center">
     <img alt="bd_imdb_movies" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d99b91e7-5ae2-4f23-a1eb-cc66629e8976" target="_blank">
   </div>
+  Mais detalhes de cada modificação:
+  - Coluna "Movie Name Language":
+  
+  Foi feita com o comando "[`DETECT LANGUAGE`](https://support.google.com/docs/answer/3093278?hl=en)" e "[`MAIÚSCULA`](https://support.google.com/docs/answer/3094219?hl=pt-BR)".
+  <div align="center">
+  <img width="450" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/755093c7-38a3-47e1-a68a-7528fd54dea8">
+  </div>
+
+  - Coluna "Genres"
+  Procurei outra base de dados que possuísse os gêneros dos filmes e acabei encontrando uma chamada "[`"IMDB movies dataset"`]"(https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset) que continha a maioria dos filmes da base de dados original, fiz um "[`VLOOKUP`](https://support.google.com/docs/answer/3093318?hl=en)", mais conhecido como PROCV, para adicionar os gêneros existentes da nova base de dados para a antiga, e os que ficaram em branco, acabei colocando manualmente mesmo.
+
+    - Coluna "Main Genre"
+    - Coluna "Second Genre"
+    - Coluna "Third Genre"
+
+  
   <div>
 Informações da base de dados:
-<ul> 
-  • Position: posição da classificação do filme (de 1 a 1000)
-  • Movie Name: Nome do filme 
-  • Movie Name Language: Idioma do nome do filme 
-  • Watch Time: Duração do filme, em minutos 
-  • Genres: Gêneros dos filmes 
-  • Main Genre: Gênero principal do filme
-  • Second Genre: Segundo gênero mais predominante do filme 
-  • Third Genre: Terceiro gênero mais predominante do filme 
-  • Movie Rating: Nota do filme de zero (0) à dez (10) 
-  • Metascore of Movie: É uma pontuação atribuída por críticos de cinema para avaliar a qualidade e o mérito de um filme. Essa pontuação vai de zero (0) à cem (100) 
-  • Gross: Representa as arrecadações brutas, em dinheiro, que um filme ganhou em bilheteria em todo o mundo 
-  • Votes: Quantidade de votos recebidos por usuários do IMDb 
-  • Director: Diretor do filme (será preenchido em breve, e gráficos com essas informações serão desenvolvidos) 
-  • Description: Descrição/Sinopse do filme 
-  </ul>
-  </div>
+    
+- Position: posição da classificação do filme (de 1 a 1000)
+- Movie Name: Nome do filme
+- Movie Name Language: Idioma do nome do filme
+- Watch Time: Duração do filme, em minutos
+- Genres: Gêneros dos filmes
+- Main Genre: Gênero principal do filme
+- Second Genre: Segundo gênero mais predominante do filme
+- Third Genre: Terceiro gênero mais predominante do filme
+- Movie Rating: Nota do filme de zero (0) à dez (10)
+- Metascore of Movie: É uma pontuação atribuída por críticos de cinema para avaliar a qualidade e o mérito de um filme. Essa pontuação vai de zero (0) à cem (100)
+- Gross: Representa as arrecadações brutas, em dinheiro, que um filme ganhou em bilheteria em todo o mundo
+- Votes: Quantidade de votos recebidos por usuários do IMDb
+- Director: Diretor do filme (será preenchido em breve, e gráficos com essas informações serão desenvolvidos)
+- Description: Descrição/Sinopse do filme 
+
 
   <div align="center">
     <img width="400" alt="chatGPT_instrucoes2" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/4f18a7f7-18ab-4d22-9196-ea2ca7e3eead" target="_blank">
@@ -143,6 +161,7 @@ Informações da base de dados:
   <div align="center">
     <img width="400" alt="chatGPT_instrucoes3" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d31e37f3-9eb4-4c8f-9a2d-ca06a6603062">
   </div>
+  
 </div>
 </div>
 
