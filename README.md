@@ -90,8 +90,9 @@
 #### 👩‍💻 Aula 1:
 
 *• Adicionar a formatação condicional de cores à coluna de porcentagens (no dataset "Amazon Sales Dataset")*
-<div>
-  <div>
+  <div> <br>
+<div> 
+  <div> 
     
   ![base_dados_amazon_dados](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
   </div> <br>
@@ -133,8 +134,11 @@
   <img width="450" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/755093c7-38a3-47e1-a68a-7528fd54dea8">
   </div> <br>
 
-  - Coluna "Genres" <br><br>
-  Procurei outra base de dados que possuísse os gêneros dos filmes e acabei encontrando uma chamada "[`"IMDB movies dataset"`](https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset)" que continha a maioria dos filmes da base de dados original, fiz um "[`VLOOKUP`](https://support.google.com/docs/answer/3093318?hl=en)", mais conhecido como PROCV, para adicionar os gêneros existentes da nova base de dados para a antiga, e os que ficaram em branco, acabei colocando manualmente mesmo. <br><br>
+- Coluna "Genres" <br><br>
+  Procurei outra base de dados que possuísse os gêneros dos filmes e acabei encontrando uma chamada "[`"IMDB movies dataset"`](https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset)" que continha a maioria dos filmes da base de dados original, fiz um "[`VLOOKUP`](https://support.google.com/docs/answer/3093318?hl=en)", mais conhecido como PROCV, para adicionar os gêneros existentes da nova base de dados para a antiga, e os que ficaram com o valor zero, acabei colocando manualmente mesmo. <br><br>
+  <div align="center">
+  <img width="500" alt="coluna_genero_filme" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/e0f90643-f244-4631-99ca-b543bada1cf1"> <br>
+  </div>
 
     - Coluna "Main Genre" <br>
     <br>
