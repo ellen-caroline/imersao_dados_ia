@@ -85,7 +85,6 @@
 ![peixes_no_fundo_do_oceano](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/413095a6-bd6f-4d91-bea1-6a566214469f)
 ##
 ### 💻 Resultados 
-<br>
 
 #### 👩‍💻 Aula 1:
 
@@ -134,7 +133,7 @@ Mais detalhes de cada modificação: <br><br>
   <img width="450" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/755093c7-38a3-47e1-a68a-7528fd54dea8">
   </div> <br>
 
-- Coluna "Genres" <br><br>
+- Coluna "Genres" <br>
   Procurei outra base de dados que possuísse os gêneros dos filmes e acabei encontrando uma chamada "[`"IMDB movies dataset"`](https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset)" que continha a maioria dos filmes da base de dados original, fiz um "[`VLOOKUP`](https://support.google.com/docs/answer/3093318?hl=en)" (mais conhecido como PROCV), em conjunto com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)", para adicionar os gêneros existentes da nova base de dados para a antiga, e os que ficaram com o valor zero, acabei colocando manualmente mesmo. <br><br>
   <div align="center">
   <img width="500" alt="coluna_genero_filme" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/e0f90643-f244-4631-99ca-b543bada1cf1"> <br>
@@ -143,10 +142,10 @@ Mais detalhes de cada modificação: <br><br>
     - Coluna "Main Genre" <br><br>
 
       Fórmula foi feita com a função "[`SPLIT`](https://support.google.com/docs/answer/3094136?hl=pt-BR)", para separar o primeiro gênero que é listado na string localizada na coluna "Genres", juntamente com o "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)", para retirar os espaços a mais na string, e também, com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)". <br>
-    <div align="center">
+    <div align="center"> <br>
     <img width="450" alt="coluna_genero_principal" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/32a96e74-75a8-4602-89e6-acd04078503e">
     </div>
-    <br>
+    <br> 
     
     - Coluna "Second Genre" <br>
     <br>
