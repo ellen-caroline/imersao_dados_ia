@@ -225,6 +225,11 @@ Informações da base de dados:
 - Adicionar a coluna "Director"
 - Adicionar nuvem de palavras com os gêneros que mais aparecem na base de dados
 - Incluir e desenvolver um elemento visual para mostrar quais são os diretores que mais apareceram na base de dados, evidenciando quem fez os filmes mais bem avaliados
+- Criar tabelas dinâmicas
+
+#### bd_amazon
+- Criar tabelas dinâmicas
+- Colocar diferentes tipos de gráficos
 
 ##
 ### 🔗 Hashtags
