@@ -223,7 +223,7 @@ Informações da base de dados:
 ### 🔗 Melhorias futuras para o projeto
 #### bd_imdb
 - Adicionar a coluna "Director"
-- Adicionar nuvem de palavras com os gêneros que mais aparecem na base de dados
+- Adicionar nuvem de palavras com os gêneros que aparecem na base de dados
 - Incluir e desenvolver um elemento visual para mostrar quais são os diretores que mais apareceram na base de dados, evidenciando quem fez os filmes mais bem avaliados
 - Criar tabelas dinâmicas
 
