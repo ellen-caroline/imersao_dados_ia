@@ -9,7 +9,7 @@
 </div>
 <div style="padding: 150">
   <p align="center">
-    <img align="center" width="250" alt="um png de um mergulhador, tons escuros cinzentos e há um pequeno detalhe vermelho na roupa. Estilo: arte digital" target="_blank" src="/images/diver.png">
+    <img align="center" width="250" alt="um mergulhador, tons escuros cinzentos e há um pequeno detalhe vermelho na roupa, e o fundo é transparente (png). Estilo: arte digital" target="_blank" src="/images/diver.png">
   </p>
 </div>
 
@@ -100,13 +100,13 @@
 <div> 
   <div> 
     
-  ![Imagem contendo uma visão geral do bando de dados "Amazon Sales Dataset". Colunas ](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
+  ![Visão geral do bando de dados "Amazon Sales Dataset". Colunas ](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
   </div> <br>
   
   Note que a coluna "percent", que corresponde à porcentagem de desconto sobre o preço do produto, está colorida, e os tons da cor verde variam de acordo com o valor da célula. Isso se dá por conta da formatação condicional na célula. Optei por fazer quatro regras, sendo elas:
   <div align="center">
     <br>
-    <img width="260" alt="Imagem da formatação condicional feita. Nela, há quatro condições: a primeira é da cor rosa pálido e sua condição é 'Valor é igual ou maior que 99%', a segunda é verde escuro dessaturado e sua condição é 'Valor é igual ou maior que 75%', a terceira é um verde mais claro que o anterior e sua condição é 'Valor é igual ou maior que 50%', e a quarta e última é um verde ainda mais claro que o anterior e sua condição é 'Valor é igual ou maior que 25%'. Dessa forma, números menores que 25% ficam com a célula branca" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/95b2b6f9-2931-4664-8e6e-2f6b00fbbd2c" target="_blank">
+    <img width="260" alt="Formatação condicional. Nela, há quatro condições: a primeira é da cor rosa pálido e sua condição é 'Valor é igual ou maior que 99%', a segunda é verde escuro dessaturado e sua condição é 'Valor é igual ou maior que 75%', a terceira é um verde mais claro que o anterior e sua condição é 'Valor é igual ou maior que 50%', e a quarta e última é um verde ainda mais claro que o anterior e sua condição é 'Valor é igual ou maior que 25%'. Dessa forma, números menores que 25% ficam com a célula branca" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/95b2b6f9-2931-4664-8e6e-2f6b00fbbd2c" target="_blank">
   </div> <br><br>
 </div>
 <div>
@@ -116,7 +116,7 @@
     Seguindo as instruções da aula da imersão, foi explicado como escrever um prompt para que o ChatGPT dê as instruções de como realizar uma análise exploratória no Google Sheets. A dica é escrever o prompt fornecendo o máximo de informações possíveis sobre a base de dados, para que não haja outras interpretações, dessa forma, a resposta será mais concisa e alinhada com a dúvida.
   </div>
   <div align="center"> <br>
-    <img width="400" alt="Imagem mostra uma parte de uma conversa com o chatGPT. O ChatGPT instrui a fazer a análise de dados seguindo passos, e na imagem contém os seguintes passos: Passo 1: Importação dos Dados: 1.1 Abra uma nova planilha no Google Sheets. 1.2 Clique em 'Arquivo' e escolha 'Importar' ou 'Fazer upload' para carregar o arquivo de dados (que provavelmente está em formato CSV ou Excel). 1.3 Certifique-se de que os dados são importados corretamente nas colunas apropriadas. Passo 2: Análise das Colunas: 2.1 Revise as colunas disponíveis na sua planilha para entender o que cada uma representa. Você já descreveu o significado das colunas, mas essa etapa é importante para uma análise mais aprofundada. Passo 3: Limpeza de Dados (se necessário): 3.1 Verifique se há valores ausentes em alguma coluna e decida como lidar com eles (remover linhas, preencher valores, etc.). 3.2 Certifique-se de que os tipos de dados em cada coluna estejam corretos (por exemplo, as colunas de ano devem ser do tipo numérico, não texto)." src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/226f5200-cfe5-4df7-a290-6c75e4f50d74" target="_blank">
+    <img width="400" alt="Parte de uma conversa com o chatGPT. O ChatGPT instrui a fazer a análise de dados seguindo passos, e na imagem contém os seguintes passos: Passo 1: Importação dos Dados: 1.1 Abra uma nova planilha no Google Sheets. 1.2 Clique em 'Arquivo' e escolha 'Importar' ou 'Fazer upload' para carregar o arquivo de dados (que provavelmente está em formato CSV ou Excel). 1.3 Certifique-se de que os dados são importados corretamente nas colunas apropriadas. Passo 2: Análise das Colunas: 2.1 Revise as colunas disponíveis na sua planilha para entender o que cada uma representa. Você já descreveu o significado das colunas, mas essa etapa é importante para uma análise mais aprofundada. Passo 3: Limpeza de Dados (se necessário): 3.1 Verifique se há valores ausentes em alguma coluna e decida como lidar com eles (remover linhas, preencher valores, etc.). 3.2 Certifique-se de que os tipos de dados em cada coluna estejam corretos (por exemplo, as colunas de ano devem ser do tipo numérico, não texto)." src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/226f5200-cfe5-4df7-a290-6c75e4f50d74" target="_blank">
   </div> <br>
   <div>
     Após importar e analisar as colunas, foram realizadas várias etapas de limpeza e aprimoramento dos dados. Primeiramente, foram identificados números em branco nas colunas "Metascore of Movie" e "Gross". Para lidar com esses dados ausentes, foi tomada a decisão de preencher todas as células vazias com o valor "No information". Isso garante que os campos vazios sejam devidamente identificados. 
@@ -279,7 +279,7 @@ Informações da base de dados:
 #### bd_threads_review
 
 <div align="center">
-<img width="100" src="https://i.imgur.com/uTkEUww.gif">
+<img width="100" alt="Gif de um carangueijo laranja andando com fundo transparente" src="https://i.imgur.com/uTkEUww.gif">
 </div>
 
 ##
