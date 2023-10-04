@@ -86,7 +86,7 @@
 ##
 <div align="center">
   
-<img width="800" alt="gif_fundo_do_mar" scr="/images/gif_fundo_do_mar.gif">
+<img width="800" alt="gif_fundo_do_mar" src="/images/gif_fundo_do_mar.gif">
   
 </div>
 
@@ -258,6 +258,9 @@ Pasta contendo recursos visuais utilizadas no README
 ##
 ### 🔗 Hashtags
 #alura #alura_dados_ia #7DaysOfCode
+
+### Créditos
+- Gif do fundo do mar: 
 
 <img width=100% alt="blue_waves_end" src="https://capsule-render.vercel.app/api?type=waving&color=2132a6&height=120&section=footer"/>
 
