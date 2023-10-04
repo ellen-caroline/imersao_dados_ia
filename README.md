@@ -86,7 +86,7 @@
 ##
 <div align="center">
   
-<img width="800" alt="Gif do fundo do mar com uma pessoa de cabelo comprido no centro para baixo, há baleias azul claro nadando, mais ao fundo, direção de baixo para cima, e há peixes das cores azul claro, amarelo, laranja, branco e brilhante, nadando em diversas direções. Também há um recife de corais nas cores azul e verde e há plantas aquáticas. Estilo: arte digital" src="/images/gif_fundo_do_mar.gif">
+<img width="800" alt="Gif do fundo do mar com uma pessoa de cabelo comprido no centro para baixo. Possui um ecossistema com grande biodiversidade, há baleias . As baleias são da cor azul claro e estão nadando, bem ao fundo da imagem, direção de baixo para cima, e há peixes das cores azul claro, amarelo, laranja, branco e brilhante, nadando em diversas direções. Também há um recife de corais nas cores azul e verde e há plantas aquáticas. Estilo: arte digital" src="/images/gif_fundo_do_mar.gif">
   
 </div>
 
@@ -279,9 +279,13 @@ Pasta contendo recursos visuais utilizadas no README
 ### 🔗 Hashtags
 #alura #alura_dados_ia #7DaysOfCode
 
-### Créditos
-- Gif do fundo do mar: []()
-- Gif caranqueijo: [`oleksiis`](https://imgur.com/gallery/J39Ds)
+##
+
+### Referências
+- [Cartilha: O uso correto do texto alternativo](https://www.gov.br/governodigital/pt-br/acessibilidade-digital/uso-correto-texto-alternativo.pdf)
+- Mídias: 
+  - Gif do fundo do mar: [`Mienar`](https://mienar.tumblr.com/post/184976994089/commission-for-kelseylorene-instagram-shop)
+  - Gif caranqueijo: [`Oleksiis`](https://imgur.com/gallery/J39Ds)
 
 <img width=100% alt="blue_waves_end" src="https://capsule-render.vercel.app/api?type=waving&color=2132a6&height=120&section=footer"/>
 
