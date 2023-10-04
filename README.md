@@ -84,11 +84,16 @@
 - Conectar as duas planilhas usadas nas aulas anteriores, como fizemos com o VLOOKUP, mas usando Python e Pandas
 - Colocar a base já corrigida na biblioteca Pandas Profiling citada no conteúdo extra
 ##
-![peixes_no_fundo_do_oceano](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/413095a6-bd6f-4d91-bea1-6a566214469f)
+<div align="center">
+  
+<img width="800" alt="gif_fundo_do_mar" scr="/images/gif_fundo_do_mar.gif">
+  
+</div>
+
 ##
 ### 💻 Resultados 
 
-#### 👩‍💻 Aula 1:
+#### 👩‍💻 Aula 1: Análise exploratória da base de dados e chatGPT
 
 *• Adicionar a formatação condicional de cores à coluna de porcentagens (no dataset "Amazon Sales Dataset")*
   <div> <br>
@@ -151,9 +156,13 @@ Mais detalhes de cada modificação: <br><br>
     
     - Coluna "Second Genre" <br>
 
-    
+    <div align="center"> <br>
+    <img width="450" alt="coluna_segundo_genero" scr="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/ed187a3e-fb85-4d63-88c4-d665d2eecc82">
+    </div>
     <br>
+  
     - Coluna "Third Genre" <br>
+    
     <br>
 
   
@@ -186,7 +195,7 @@ Informações da base de dados:
 </div>
 </div> <br>
 
-#### 👩‍💻 Aula 2:
+#### 👩‍💻 Aula 2: Manipule planilhas e crie gráficos com ajuda da IA
 <div>
   
 *• Personalizar o gráfico para adicionar as quantidades no gráfico*
@@ -194,10 +203,10 @@ Informações da base de dados:
 *• Analisar qual o gráfico ideal para os demais gráficos a serem adicionados, usando o guia citado pelo instrutor Marcell, CEO da PM3*
 *• Realizar uma análise exploratória e aplicar as mesmas técnicas, incluindo a criação de gráficos, a uma nova base de dados do Kaggle: base de dados de hoteis chamada Hotels in Munnar, Kerala (MakeMyTrip)*
 
-#### 👩‍💻 Aula 3:
+#### 👩‍💻 Aula 3: Conectando bases de dados e usando a extensão do ChatGPT
 *• Gerar a tradução das críticas e fazer uma análise de sentimentos das mesmas, usando a extensão SheetGPT, em uma nova base de dados do Kaggle: Threads, an Instagram app Reviews*
 
-#### 👩‍💻 Aula 4:
+#### 👩‍💻 Aula 4: Manipule planilhas com Phyton Pandas e o ChatGPT
 *• Usando o Google Colab com Python e Pandas, criar uma nova coluna chamada “actual_price_real”, que será o valor da coluna “actual_price”, originalmente em rúpias indianas, convertido para reais*
 *• Realizar as análises que foram executadas nas aulas anteriores usando o Google Sheets, mas agora utilizando Python e Pandas no Google Colab*
 *• Conectar as duas planilhas usadas nas aulas anteriores, como fizemos com o VLOOKUP, mas usando Python e Pandas*
@@ -206,10 +215,10 @@ Informações da base de dados:
 
  
 ##
-### 📎 Organização do repositório
+### 🗃️ Organização do repositório
 #### Overview
 
-#### Pasta "bd_amazon"
+#### Pasta "bd_amazon_products_imersao"
 ![base_dados_amazon_dados](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
 ![base_dados_amazon_avaliacoes](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/5891cdf8-330a-4a76-a651-2fb170ef066a)
 ![image](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/7be95a73-9c3d-4951-8cee-676eafe01529)
@@ -221,24 +230,34 @@ Informações da base de dados:
 ![image](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/5c7af85f-8eda-4320-b0ef-36f028e56f4f)
 ![image](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/20d808de-f7e5-44de-945e-49c2bda1a98a)
 
+#### Pasta "bd_top1000_IMDb_movies"
+
+#### Pasta "bd_hotels_munnar"
+
+#### Pasta "bd_threads_review"
+
+#### Pasta "images"
+Pasta contendo recursos visuais utilizadas no README 
+
 ##
-### 🔗 Melhorias futuras para o projeto
-#### bd_imdb
+### 📑 Melhorias futuras para o projeto
+#### bd_amazon_products_imersao
+- Criar tabelas dinâmicas
+- Colocar diferentes tipos de gráficos
+
+#### bd_top1000_IMDb_movies
 - Adicionar a coluna "Director"
 - Adicionar nuvem de palavras com os gêneros que aparecem na base de dados
 - Incluir e desenvolver um elemento visual para mostrar quais são os diretores que mais apareceram na base de dados, evidenciando quem fez os filmes mais bem avaliados
 - Criar tabelas dinâmicas
 
-#### bd_amazon
-- Criar tabelas dinâmicas
-- Colocar diferentes tipos de gráficos
+#### bd_hotels_munnar
+
+#### bd_threads_review
 
 ##
 ### 🔗 Hashtags
 #alura #alura_dados_ia #7DaysOfCode
-
-
-
 
 <img width=100% alt="blue_waves_end" src="https://capsule-render.vercel.app/api?type=waving&color=2132a6&height=120&section=footer"/>
 
