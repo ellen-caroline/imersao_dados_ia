@@ -158,14 +158,14 @@ Mais detalhes de cada modificação: <br><br>
   Procurei outra base de dados que possuísse os gêneros dos filmes e acabei encontrando uma chamada "[`IMDB movies dataset`](https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset)" que continha a maioria dos filmes da base de dados original, fiz um "[`VLOOKUP`](https://support.google.com/docs/answer/3093318?hl=en)" (mais conhecido como PROCV), em conjunto com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)", para adicionar os gêneros existentes da nova base de dados para a antiga, e os que ficaram com o valor zero, acabei colocando manualmente mesmo.    <br>
   - Fórmula: 
   <br>
-  <div align="center">
-  <img width="500" alt="coluna_genero_filme" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/e0f90643-f244-4631-99ca-b543bada1cf1"> <br>
-  </div><br>
+    <div align="center">
+    <img width="500" alt="coluna_genero_filme" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/e0f90643-f244-4631-99ca-b543bada1cf1"> <br>
+    </div><br>
 
-    - Coluna "Main Genre" <br><br>
+      - Coluna "Main Genre" <br><br>
       Fórmula foi feita com a função "[`SPLIT`](https://support.google.com/docs/answer/3094136?hl=pt-BR)", para separar o primeiro gênero que é listado na string localizada na coluna "Genres", juntamente com o "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)", para retirar os espaços a mais na string, e também, com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)".
       <br>
-      - Fórmula: =SEERRO(ARRUMAR(SPLIT(F2; ",")); "")
+        - Fórmula: =SEERRO(ARRUMAR(SPLIT(F2; ",")); "")
     <br>
     <div align="center"> <br>
     <img width="450" alt="coluna_genero_principal" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/32a96e74-75a8-4602-89e6-acd04078503e">
@@ -173,10 +173,10 @@ Mais detalhes de cada modificação: <br><br>
     </div>
     <br> 
     
-    - Coluna "Second Genre" <br><br>
-      A fórmula utiliza as funções "[`EXT.TEXTO`](https://support.microsoft.com/pt-br/office/ext-texto-ext-textob-funções-ext-texto-ext-textob-d5f9e25c-d7d6-472e-b568-4ecb12433028)", que pega parte do texto em F após a posição indicada em G, "[`REGEXEXTRACT`](https://support.google.com/docs/answer/3098244?hl=en)", usada para extrair um padrão de texto que corresponda ao regex "([^,]+)", que significa qualquer sequência de caracteres que não contenha vírgulas, "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)" e "[`SEERRO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)" para extrair o segundo gênero da coluna "Genres", enquanto remove espaços em branco e caracteres não imprimíveis. Se ocorrer algum erro, a fórmula retorna uma string vazia como resultado.
+      - Coluna "Second Genre" <br><br>
+        A fórmula utiliza as funções "[`EXT.TEXTO`](https://support.microsoft.com/pt-br/office/ext-texto-ext-textob-funções-ext-texto-ext-textob-d5f9e25c-d7d6-472e-b568-4ecb12433028)", que pega parte do texto em F após a posição indicada em G, "[`REGEXEXTRACT`](https://support.google.com/docs/answer/3098244?hl=en)", usada para extrair um padrão de texto que corresponda ao regex "([^,]+)", que significa qualquer sequência de caracteres que não contenha vírgulas, "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)" e "[`SEERRO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)" para extrair o segundo gênero da coluna "Genres", enquanto remove espaços em branco e caracteres não imprimíveis. Se ocorrer algum erro, a fórmula retorna uma string vazia como resultado.
       <br>
-      - Fórmula: =SEERRO(ARRUMAR(REGEXEXTRACT(EXT.TEXTO(F2; NÚM.CARACT(G2)+2; NÚM.CARACT(F2)); "([^,]+)")); "")
+        - Fórmula: =SEERRO(ARRUMAR(REGEXEXTRACT(EXT.TEXTO(F2; NÚM.CARACT(G2)+2; NÚM.CARACT(F2)); "([^,]+)")); "")
     <br>
     <div align="center"> <br>
     <img width="450" alt="coluna_segundo_genero" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/efcb6d97-1561-42d3-8f20-1896be39da4b">
@@ -239,8 +239,6 @@ Informações da base de dados:
 - *Conectar as duas planilhas usadas nas aulas anteriores, como fizemos com o VLOOKUP, mas usando Python e Pandas*
 - *Colocar a base já corrigida na biblioteca Pandas Profiling citada no conteúdo extra*
 
-
- 
 ##
 ### 🗃️ Organização do repositório
 #### Overview
@@ -264,7 +262,8 @@ Informações da base de dados:
 #### Pasta "bd_threads_review"
 
 #### Pasta "images"
-Pasta contendo recursos visuais utilizadas no README 
+
+#### Pasta contendo recursos visuais utilizadas no README 
 
 ##
 ### 📑 Melhorias futuras para o projeto
@@ -282,7 +281,7 @@ Pasta contendo recursos visuais utilizadas no README
 
 #### bd_threads_review
 
-<div>
+<div align="center">
 <img width="100" src="https://i.imgur.com/uTkEUww.gif">
 </div>
 
