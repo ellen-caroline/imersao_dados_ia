@@ -9,7 +9,7 @@
 </div>
 <div style="padding: 150">
   <p align="center">
-    <img align="center" width="250" alt="um png de um mergulhador, tons escuros cinzentos e há um pequeno detalhe vermelho na roupa" target="_blank" src="/images/diver.png">
+    <img align="center" width="250" alt="um png de um mergulhador, tons escuros cinzentos e há um pequeno detalhe vermelho na roupa. Estilo: arte digital" target="_blank" src="/images/diver.png">
   </p>
 </div>
 
@@ -86,7 +86,7 @@
 ##
 <div align="center">
   
-<img width="800" alt="gif do fundo do mar" src="/images/gif_fundo_do_mar.gif">
+<img width="800" alt="Gif do fundo do mar com uma pessoa de cabelo comprido no centro para baixo, há baleias azul claro nadando, mais ao fundo, direção de baixo para cima, e há peixes das cores azul claro, amarelo, laranja, branco e brilhante, nadando em diversas direções. Também há um recife de corais nas cores azul e verde e há plantas aquáticas. Estilo: arte digital" src="/images/gif_fundo_do_mar.gif">
   
 </div>
 
@@ -100,7 +100,7 @@
 <div> 
   <div> 
     
-  ![imagem contendo uma visão geral do bando de dados "Amazon Sales Dataset"](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
+  ![Imagem contendo uma visão geral do bando de dados "Amazon Sales Dataset". Colunas ](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
   </div> <br>
   
   Note que a coluna "percent", que corresponde à porcentagem de desconto sobre o preço do produto, está colorida, e os tons da cor verde variam de acordo com o valor da célula. Isso se dá por conta da formatação condicional na célula. Optei por fazer quatro regras, sendo elas:
@@ -118,8 +118,20 @@
   <div align="center"> <br>
     <img width="400" alt="Imagem mostra uma parte de uma conversa com o chatGPT. O ChatGPT instrui a fazer a análise de dados seguindo passos, e na imagem contém os seguintes passos: Passo 1: Importação dos Dados: 1.1 Abra uma nova planilha no Google Sheets. 1.2 Clique em 'Arquivo' e escolha 'Importar' ou 'Fazer upload' para carregar o arquivo de dados (que provavelmente está em formato CSV ou Excel). 1.3 Certifique-se de que os dados são importados corretamente nas colunas apropriadas. Passo 2: Análise das Colunas: 2.1 Revise as colunas disponíveis na sua planilha para entender o que cada uma representa. Você já descreveu o significado das colunas, mas essa etapa é importante para uma análise mais aprofundada. Passo 3: Limpeza de Dados (se necessário): 3.1 Verifique se há valores ausentes em alguma coluna e decida como lidar com eles (remover linhas, preencher valores, etc.). 3.2 Certifique-se de que os tipos de dados em cada coluna estejam corretos (por exemplo, as colunas de ano devem ser do tipo numérico, não texto)." src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/226f5200-cfe5-4df7-a290-6c75e4f50d74" target="_blank">
   </div> <br>
-      Logo após a importação e análise das colunas, procurei limpar os dados contidos nas colunas da maneira mais correta possível. Havia números em branco nas colunas "Metascore of Movie" e "Gross", estudei o que pode ser colocado em casos de dados vazios, e decidi colocar "No information" em todas as células vazias. Outro problema encontrado foi a formatação dos números da coluna "Gross" e foi trocado a formatação para número do tipo moeda. Além disso, depois da realizar a limpeza, optei por adicionar mais informação na base de dados, sendo elas: nome "Position" na coluna contendo as posições das classificações dos filmes, coluna "Movie Name Language", coluna "Genres", coluna "Main Genre", coluna "Second Genre" e coluna "Third Genre". Também, Para facilitar a visualização de alguns dados, adicionei formatação condicional às colunas "Movie Rating" e "Metascore of Movie".
-  <div></div><br>
+  <div>
+    Após importar e analisar as colunas, foram realizadas várias etapas de limpeza e aprimoramento dos dados. Primeiramente, foram identificados números em branco nas colunas "Metascore of Movie" e "Gross". Para lidar com esses dados ausentes, foi tomada a decisão de preencher todas as células vazias com o valor "No information". Isso garante que os campos vazios sejam devidamente identificados. 
+    <br><br>
+  Além disso, a formatação dos números na coluna "Gross" foi ajustada para o formato de moeda, o que facilita a leitura e interpretação dos valores financeiros. Para enriquecer ainda mais a base de dados, foram adicionadas várias novas informações. Estas incluem: 
+    <br>
+    
+- Uma nova coluna chamada "Position", que contém as posições das classificações dos filmes.
+- Uma coluna chamada "Movie Name Language" para especificar o idioma do nome do filme.
+- Colunas separadas para "Genres" (Gêneros), "Main Genre" (Gênero Principal), "Second Genre" (Segundo Gênero) e "Third Genre" (Terceiro Gênero) para categorizar os filmes com mais detalhes quanto aos gêneros a que pertencem.  
+<br>
+  Além disso, foram aplicadas formatações condicionais às colunas "Movie Rating" (Avaliação do Filme) e "Metascore of Movie" (Metascore do Filme) para melhorar a visualização dos dados. Essas formatações condicionais ajudam a destacar informações importantes ou valores fora do padrão, tornando mais fácil a identificação de tendências e insights na base de dados.
+<br><br>
+  Essas modificações e melhorias foram realizadas com o objetivo de tornar a base de dados mais completa, informativa e fácil de usar para análises subsequentes.
+</div><br>
   
 - Antes das modificações
 
@@ -133,7 +145,7 @@
     <img alt="bd_imdb_movies" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d99b91e7-5ae2-4f23-a1eb-cc66629e8976" target="_blank">
   </div> <br>
 Mais detalhes de cada modificação: <br><br>
-- Coluna "Movie Name Language": <br>
+- Coluna "Movie Name Language" <br>
   
   A fórmula foi criada utilizando os comandos "[`DETECT LANGUAGE`](https://support.google.com/docs/answer/3093278?hl=en)" para detecção de idioma e "[`MAIÚSCULA`](https://support.google.com/docs/answer/3094219?hl=pt-BR)" para converter o texto em letras maiúsculas. <br><br>
   <div align="center">
