@@ -9,7 +9,7 @@
 </div>
 <div style="padding: 150">
   <p align="center">
-    <img align="center" width="250" alt="mergulhador_fundo_oceano" target="_blank" src="/images/diver.png">
+    <img align="center" width="250" alt="um png de um mergulhador, tons escuros cinzentos e há um pequeno detalhe vermelho na roupa" target="_blank" src="/images/diver.png">
   </p>
 </div>
 
@@ -21,7 +21,7 @@
 ##
 ### 🤿 Aula 1: Análise exploratória da base de dados e chatGPT
 #### Introdução 
-  A primeira aula da imersão apresenta o Kaggle como plataforma e utiliza uma base de dados de compras da Amazon para realizar uma análise exploratória. Além disso, o ChatGPT é introduzido como uma ferramenta auxiliar na geração de fórmulas básicas no Google Sheets. Foi disponibilizado uma base de dados [`"Amazon Sales Dataset"`](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset) (traduzido para o português, Vendas da Amazon Dataset), do Kaggle, com o intuito de acompanhar e realizar as atividades propostas durante a aula. 
+  A primeira aula da imersão apresenta o Kaggle como plataforma e utiliza uma base de dados de compras da Amazon para realizar uma análise exploratória. Além disso, o ChatGPT é introduzido como uma ferramenta auxiliar na geração de fórmulas básicas no Google Sheets. Foi disponibilizado uma base de dados "[`Amazon Sales Dataset`](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset) (traduzido para o português, Vendas da Amazon Dataset)", do Kaggle, com o intuito de acompanhar e realizar as atividades propostas durante a aula. 
 <br>
 #### Sobre a base de dados "Amazon Sales Dataset"
   Na planilha de dados da Amazon, havia as seguintes informações: 
@@ -86,7 +86,7 @@
 ##
 <div align="center">
   
-<img width="800" alt="gif_fundo_do_mar" src="/images/gif_fundo_do_mar.gif">
+<img width="800" alt="gif do fundo do mar" src="/images/gif_fundo_do_mar.gif">
   
 </div>
 
@@ -100,23 +100,23 @@
 <div> 
   <div> 
     
-  ![base_dados_amazon_dados](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
+  ![imagem contendo uma visão geral do bando de dados "Amazon Sales Dataset"](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
   </div> <br>
   
   Note que a coluna "percent", que corresponde à porcentagem de desconto sobre o preço do produto, está colorida, e os tons da cor verde variam de acordo com o valor da célula. Isso se dá por conta da formatação condicional na célula. Optei por fazer quatro regras, sendo elas:
   <div align="center">
     <br>
-    <img width="260" alt="bd_amazon_formatacao_condicional" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/95b2b6f9-2931-4664-8e6e-2f6b00fbbd2c" target="_blank">
+    <img width="260" alt="Imagem da formatação condicional feita. Nela, há quatro condições: a primeira é da cor rosa pálido e sua condição é 'Valor é igual ou maior que 99%', a segunda é verde escuro dessaturado e sua condição é 'Valor é igual ou maior que 75%', a terceira é um verde mais claro que o anterior e sua condição é 'Valor é igual ou maior que 50%', e a quarta e última é um verde ainda mais claro que o anterior e sua condição é 'Valor é igual ou maior que 25%'. Dessa forma, números menores que 25% ficam com a célula branca" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/95b2b6f9-2931-4664-8e6e-2f6b00fbbd2c" target="_blank">
   </div> <br><br>
 </div>
 <div>
     
   *• Realizar uma análise exploratória e aplicar as mesmas técnicas utilizando o ChatGPT a uma nova base de dados do Kaggle: Top 1000 IMDb Movies Dataset*
-  <div> <br>
+  <div>
     Seguindo as instruções da aula da imersão, foi explicado como escrever um prompt para que o ChatGPT dê as instruções de como realizar uma análise exploratória no Google Sheets. A dica é escrever o prompt fornecendo o máximo de informações possíveis sobre a base de dados, para que não haja outras interpretações, dessa forma, a resposta será mais concisa e alinhada com a dúvida.
   </div>
   <div align="center"> <br>
-    <img width="400" alt="chatGPT_instrucoes1" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/226f5200-cfe5-4df7-a290-6c75e4f50d74" target="_blank">
+    <img width="400" alt="Imagem mostra uma parte de uma conversa com o chatGPT. O ChatGPT instrui a fazer a análise de dados seguindo passos, e na imagem contém os seguintes passos: Passo 1: Importação dos Dados: 1.1 Abra uma nova planilha no Google Sheets. 1.2 Clique em 'Arquivo' e escolha 'Importar' ou 'Fazer upload' para carregar o arquivo de dados (que provavelmente está em formato CSV ou Excel). 1.3 Certifique-se de que os dados são importados corretamente nas colunas apropriadas. Passo 2: Análise das Colunas: 2.1 Revise as colunas disponíveis na sua planilha para entender o que cada uma representa. Você já descreveu o significado das colunas, mas essa etapa é importante para uma análise mais aprofundada. Passo 3: Limpeza de Dados (se necessário): 3.1 Verifique se há valores ausentes em alguma coluna e decida como lidar com eles (remover linhas, preencher valores, etc.). 3.2 Certifique-se de que os tipos de dados em cada coluna estejam corretos (por exemplo, as colunas de ano devem ser do tipo numérico, não texto)." src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/226f5200-cfe5-4df7-a290-6c75e4f50d74" target="_blank">
   </div> <br>
       Logo após a importação e análise das colunas, procurei limpar os dados contidos nas colunas da maneira mais correta possível. Havia números em branco nas colunas "Metascore of Movie" e "Gross", estudei o que pode ser colocado em casos de dados vazios, e decidi colocar "No information" em todas as células vazias. Outro problema encontrado foi a formatação dos números da coluna "Gross" e foi trocado a formatação para número do tipo moeda. Além disso, depois da realizar a limpeza, optei por adicionar mais informação na base de dados, sendo elas: nome "Position" na coluna contendo as posições das classificações dos filmes, coluna "Movie Name Language", coluna "Genres", coluna "Main Genre", coluna "Second Genre" e coluna "Third Genre". Também, Para facilitar a visualização de alguns dados, adicionei formatação condicional às colunas "Movie Rating" e "Metascore of Movie".
   <div></div><br>
@@ -131,33 +131,38 @@
   
   <div align="center"> <br>
     <img alt="bd_imdb_movies" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d99b91e7-5ae2-4f23-a1eb-cc66629e8976" target="_blank">
-  </div> <br><br>
+  </div> <br>
 Mais detalhes de cada modificação: <br><br>
 - Coluna "Movie Name Language": <br>
   
-  Fórmula foi feita com o comando "[`DETECT LANGUAGE`](https://support.google.com/docs/answer/3093278?hl=en)" e "[`MAIÚSCULA`](https://support.google.com/docs/answer/3094219?hl=pt-BR)". <br><br>
+  A fórmula foi criada utilizando os comandos "[`DETECT LANGUAGE`](https://support.google.com/docs/answer/3093278?hl=en)" para detecção de idioma e "[`MAIÚSCULA`](https://support.google.com/docs/answer/3094219?hl=pt-BR)" para converter o texto em letras maiúsculas. <br><br>
   <div align="center">
   <img width="450" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/755093c7-38a3-47e1-a68a-7528fd54dea8">
   </div> <br>
 
-- Coluna "Genres" <br>
-  Procurei outra base de dados que possuísse os gêneros dos filmes e acabei encontrando uma chamada [`"IMDB movies dataset"`](https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset) que continha a maioria dos filmes da base de dados original, fiz um "[`VLOOKUP`](https://support.google.com/docs/answer/3093318?hl=en)" (mais conhecido como PROCV), em conjunto com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)", para adicionar os gêneros existentes da nova base de dados para a antiga, e os que ficaram com o valor zero, acabei colocando manualmente mesmo. <br><br>
+- Coluna "Genres" <br><br>
+  Procurei outra base de dados que possuísse os gêneros dos filmes e acabei encontrando uma chamada "[`IMDB movies dataset`](https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset)" que continha a maioria dos filmes da base de dados original, fiz um "[`VLOOKUP`](https://support.google.com/docs/answer/3093318?hl=en)" (mais conhecido como PROCV), em conjunto com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)", para adicionar os gêneros existentes da nova base de dados para a antiga, e os que ficaram com o valor zero, acabei colocando manualmente mesmo. <br><br>
   <div align="center">
   <img width="500" alt="coluna_genero_filme" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/e0f90643-f244-4631-99ca-b543bada1cf1"> <br>
   </div><br>
 
     - Coluna "Main Genre" <br><br>
-
-      Fórmula foi feita com a função "[`SPLIT`](https://support.google.com/docs/answer/3094136?hl=pt-BR)", para separar o primeiro gênero que é listado na string localizada na coluna "Genres", juntamente com o "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)", para retirar os espaços a mais na string, e também, com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)". <br>
+      Fórmula foi feita com a função "[`SPLIT`](https://support.google.com/docs/answer/3094136?hl=pt-BR)", para separar o primeiro gênero que é listado na string localizada na coluna "Genres", juntamente com o "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)", para retirar os espaços a mais na string, e também, com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)".
+      - Fórmula: =SEERRO(ARRUMAR(SPLIT(F2; ",")); "")
+    <br>
     <div align="center"> <br>
     <img width="450" alt="coluna_genero_principal" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/32a96e74-75a8-4602-89e6-acd04078503e">
+      
     </div>
     <br> 
     
-    - Coluna "Second Genre" <br>
-
+    - Coluna "Second Genre" <br><br>
+      A fórmula utiliza as funções "[`EXT.TEXTO`](https://support.microsoft.com/pt-br/office/ext-texto-ext-textob-funções-ext-texto-ext-textob-d5f9e25c-d7d6-472e-b568-4ecb12433028)", que pega parte do texto em F após a posição indicada em G, "[`REGEXEXTRACT`](https://support.google.com/docs/answer/3098244?hl=en)", usada para extrair um padrão de texto que corresponda ao regex "([^,]+)", que significa qualquer sequência de caracteres que não contenha vírgulas, "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)" e "[`SEERRO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)" para extrair o segundo gênero da coluna "Genres", enquanto remove espaços em branco e caracteres não imprimíveis. Se ocorrer algum erro, a fórmula retorna uma string vazia como resultado.
+      - Fórmula: =SEERRO(ARRUMAR(REGEXEXTRACT(EXT.TEXTO(F2; NÚM.CARACT(G2)+2; NÚM.CARACT(F2)); "([^,]+)")); "")
+    <br>
     <div align="center"> <br>
-    <img width="450" alt="coluna_segundo_genero" scr="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/ed187a3e-fb85-4d63-88c4-d665d2eecc82">
+    <img width="450" alt="coluna_segundo_genero" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/efcb6d97-1561-42d3-8f20-1896be39da4b">
+
     </div>
     <br>
   
@@ -218,7 +223,7 @@ Informações da base de dados:
 ### 🗃️ Organização do repositório
 #### Overview
 
-#### Pasta "bd_amazon_products_imersao"
+#### Pasta "bd_amazon"
 ![base_dados_amazon_dados](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
 ![base_dados_amazon_avaliacoes](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/5891cdf8-330a-4a76-a651-2fb170ef066a)
 ![image](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/7be95a73-9c3d-4951-8cee-676eafe01529)
@@ -255,12 +260,16 @@ Pasta contendo recursos visuais utilizadas no README
 
 #### bd_threads_review
 
+<div>
+<img width="100" src="https://i.imgur.com/uTkEUww.gif">
+</div>
 ##
 ### 🔗 Hashtags
 #alura #alura_dados_ia #7DaysOfCode
 
 ### Créditos
-- Gif do fundo do mar: 
+- Gif do fundo do mar: []()
+- Gif caranqueijo: [`oleksiis`](https://imgur.com/gallery/J39Ds)
 
 <img width=100% alt="blue_waves_end" src="https://capsule-render.vercel.app/api?type=waving&color=2132a6&height=120&section=footer"/>
 
