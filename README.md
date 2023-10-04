@@ -288,7 +288,7 @@ Informações da base de dados:
 
 ##
 
-### Referências
+### 📚 Referências
 - [Cartilha: O uso correto do texto alternativo](https://www.gov.br/governodigital/pt-br/acessibilidade-digital/uso-correto-texto-alternativo.pdf)
 - Mídias: 
   - Gif do fundo do mar: [`Mienar`](https://mienar.tumblr.com/post/184976994089/commission-for-kelseylorene-instagram-shop)
