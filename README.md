@@ -147,19 +147,24 @@
 Mais detalhes de cada modificação: <br><br>
 - Coluna "Movie Name Language" <br>
   
-  A fórmula foi criada utilizando os comandos "[`DETECT LANGUAGE`](https://support.google.com/docs/answer/3093278?hl=en)" para detecção de idioma e "[`MAIÚSCULA`](https://support.google.com/docs/answer/3094219?hl=pt-BR)" para converter o texto em letras maiúsculas. <br><br>
+  A fórmula foi criada utilizando os comandos "[`DETECT LANGUAGE`](https://support.google.com/docs/answer/3093278?hl=en)" para detecção de idioma e "[`MAIÚSCULA`](https://support.google.com/docs/answer/3094219?hl=pt-BR)" para converter o texto em letras maiúsculas. <br>
+  - Fórmula:
+  <br><br>
   <div align="center">
   <img width="450" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/755093c7-38a3-47e1-a68a-7528fd54dea8">
   </div> <br>
 
 - Coluna "Genres" <br><br>
-  Procurei outra base de dados que possuísse os gêneros dos filmes e acabei encontrando uma chamada "[`IMDB movies dataset`](https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset)" que continha a maioria dos filmes da base de dados original, fiz um "[`VLOOKUP`](https://support.google.com/docs/answer/3093318?hl=en)" (mais conhecido como PROCV), em conjunto com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)", para adicionar os gêneros existentes da nova base de dados para a antiga, e os que ficaram com o valor zero, acabei colocando manualmente mesmo. <br><br>
+  Procurei outra base de dados que possuísse os gêneros dos filmes e acabei encontrando uma chamada "[`IMDB movies dataset`](https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset)" que continha a maioria dos filmes da base de dados original, fiz um "[`VLOOKUP`](https://support.google.com/docs/answer/3093318?hl=en)" (mais conhecido como PROCV), em conjunto com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)", para adicionar os gêneros existentes da nova base de dados para a antiga, e os que ficaram com o valor zero, acabei colocando manualmente mesmo.    <br>
+  - Fórmula: 
+  <br>
   <div align="center">
   <img width="500" alt="coluna_genero_filme" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/e0f90643-f244-4631-99ca-b543bada1cf1"> <br>
   </div><br>
 
     - Coluna "Main Genre" <br><br>
       Fórmula foi feita com a função "[`SPLIT`](https://support.google.com/docs/answer/3094136?hl=pt-BR)", para separar o primeiro gênero que é listado na string localizada na coluna "Genres", juntamente com o "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)", para retirar os espaços a mais na string, e também, com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)".
+      <br>
       - Fórmula: =SEERRO(ARRUMAR(SPLIT(F2; ",")); "")
     <br>
     <div align="center"> <br>
@@ -170,6 +175,7 @@ Mais detalhes de cada modificação: <br><br>
     
     - Coluna "Second Genre" <br><br>
       A fórmula utiliza as funções "[`EXT.TEXTO`](https://support.microsoft.com/pt-br/office/ext-texto-ext-textob-funções-ext-texto-ext-textob-d5f9e25c-d7d6-472e-b568-4ecb12433028)", que pega parte do texto em F após a posição indicada em G, "[`REGEXEXTRACT`](https://support.google.com/docs/answer/3098244?hl=en)", usada para extrair um padrão de texto que corresponda ao regex "([^,]+)", que significa qualquer sequência de caracteres que não contenha vírgulas, "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)" e "[`SEERRO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)" para extrair o segundo gênero da coluna "Genres", enquanto remove espaços em branco e caracteres não imprimíveis. Se ocorrer algum erro, a fórmula retorna uma string vazia como resultado.
+      <br>
       - Fórmula: =SEERRO(ARRUMAR(REGEXEXTRACT(EXT.TEXTO(F2; NÚM.CARACT(G2)+2; NÚM.CARACT(F2)); "([^,]+)")); "")
     <br>
     <div align="center"> <br>
@@ -215,19 +221,23 @@ Informações da base de dados:
 #### 👩‍💻 Aula 2: Manipule planilhas e crie gráficos com ajuda da IA
 <div>
   
-*• Personalizar o gráfico para adicionar as quantidades no gráfico*
+- *Personalizar o gráfico para adicionar as quantidades no gráfico*
+  
 </div>
-*• Analisar qual o gráfico ideal para os demais gráficos a serem adicionados, usando o guia citado pelo instrutor Marcell, CEO da PM3*
-*• Realizar uma análise exploratória e aplicar as mesmas técnicas, incluindo a criação de gráficos, a uma nova base de dados do Kaggle: base de dados de hoteis chamada Hotels in Munnar, Kerala (MakeMyTrip)*
+
+- *Analisar qual o gráfico ideal para os demais gráficos a serem adicionados, usando o guia citado pelo instrutor Marcell, CEO da PM3*
+- *Realizar uma análise exploratória e aplicar as mesmas técnicas, incluindo a criação de gráficos, a uma nova base de dados do Kaggle: base de dados de hoteis chamada Hotels in Munnar, Kerala (MakeMyTrip)*
 
 #### 👩‍💻 Aula 3: Conectando bases de dados e usando a extensão do ChatGPT
-*• Gerar a tradução das críticas e fazer uma análise de sentimentos das mesmas, usando a extensão SheetGPT, em uma nova base de dados do Kaggle: Threads, an Instagram app Reviews*
+
+- *Gerar a tradução das críticas e fazer uma análise de sentimentos das mesmas, usando a extensão SheetGPT, em uma nova base de dados do Kaggle: Threads, an Instagram app Reviews*
 
 #### 👩‍💻 Aula 4: Manipule planilhas com Phyton Pandas e o ChatGPT
-*• Usando o Google Colab com Python e Pandas, criar uma nova coluna chamada “actual_price_real”, que será o valor da coluna “actual_price”, originalmente em rúpias indianas, convertido para reais*
-*• Realizar as análises que foram executadas nas aulas anteriores usando o Google Sheets, mas agora utilizando Python e Pandas no Google Colab*
-*• Conectar as duas planilhas usadas nas aulas anteriores, como fizemos com o VLOOKUP, mas usando Python e Pandas*
-*• Colocar a base já corrigida na biblioteca Pandas Profiling citada no conteúdo extra*
+
+- *Usando o Google Colab com Python e Pandas, criar uma nova coluna chamada “actual_price_real”, que será o valor da coluna “actual_price”, originalmente em rúpias indianas, convertido para reais*
+- *Realizar as análises que foram executadas nas aulas anteriores usando o Google Sheets, mas agora utilizando Python e Pandas no Google Colab*
+- *Conectar as duas planilhas usadas nas aulas anteriores, como fizemos com o VLOOKUP, mas usando Python e Pandas*
+- *Colocar a base já corrigida na biblioteca Pandas Profiling citada no conteúdo extra*
 
 
  
@@ -275,6 +285,7 @@ Pasta contendo recursos visuais utilizadas no README
 <div>
 <img width="100" src="https://i.imgur.com/uTkEUww.gif">
 </div>
+
 ##
 ### 🔗 Hashtags
 #alura #alura_dados_ia #7DaysOfCode
