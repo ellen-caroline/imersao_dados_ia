@@ -120,15 +120,16 @@
   </div> <br>
   <div>
     Após importar e analisar as colunas, foram realizadas várias etapas de limpeza e aprimoramento dos dados. Primeiramente, foram identificados números em branco nas colunas "Metascore of Movie" e "Gross". Para lidar com esses dados ausentes, foi tomada a decisão de preencher todas as células vazias com o valor "No information". Isso garante que os campos vazios sejam devidamente identificados. 
-    <br><br>
-  Além disso, a formatação dos números na coluna "Gross" foi ajustada para o formato de moeda, o que facilita a leitura e interpretação dos valores financeiros. Para enriquecer ainda mais a base de dados, foram adicionadas várias novas informações. Estas incluem: 
-    <br>
+  Além disso, a formatação dos números na coluna "Gross" foi ajustada para o formato de moeda, o que facilita a leitura e interpretação dos valores financeiros. 
+<br><br>  
+Para enriquecer ainda mais a base de dados, foram adicionadas várias novas informações. Estas incluem: 
+<br><br>
     
-- Uma nova coluna chamada "Position", que contém as posições das classificações dos filmes.
-- Uma coluna chamada "Movie Name Language" para especificar o idioma do nome do filme.
+- Nomear a primeira coluna, que contém as posições das classificações dos filmes, de "Position".
+- Uma nova coluna chamada "Movie Name Language" para especificar o idioma do nome do filme.
 - Colunas separadas para "Genres" (Gêneros), "Main Genre" (Gênero Principal), "Second Genre" (Segundo Gênero) e "Third Genre" (Terceiro Gênero) para categorizar os filmes com mais detalhes quanto aos gêneros a que pertencem.  
 <br>
-  Além disso, foram aplicadas formatações condicionais às colunas "Movie Rating" (Avaliação do Filme) e "Metascore of Movie" (Metascore do Filme) para melhorar a visualização dos dados. Essas formatações condicionais ajudam a destacar informações importantes ou valores fora do padrão, tornando mais fácil a identificação de tendências e insights na base de dados.
+  Também, foram aplicadas formatações condicionais às colunas "Movie Rating" (Avaliação do Filme) e "Metascore of Movie" (Metascore do Filme) para melhorar a visualização dos dados. Essas formatações condicionais ajudam a destacar informações importantes ou valores fora do padrão, tornando mais fácil a identificação de tendências e insights na base de dados.
 <br><br>
   Essas modificações e melhorias foram realizadas com o objetivo de tornar a base de dados mais completa, informativa e fácil de usar para análises subsequentes.
 </div><br>
@@ -162,22 +163,18 @@ Mais detalhes de cada modificação: <br><br>
     <img width="500" alt="coluna_genero_filme" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/e0f90643-f244-4631-99ca-b543bada1cf1"> <br>
     </div><br>
 
-      - Coluna "Main Genre" <br><br>
-      Fórmula foi feita com a função "[`SPLIT`](https://support.google.com/docs/answer/3094136?hl=pt-BR)", para separar o primeiro gênero que é listado na string localizada na coluna "Genres", juntamente com o "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)", para retirar os espaços a mais na string, e também, com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)".
-      <br>
-        - Fórmula: =SEERRO(ARRUMAR(SPLIT(F2; ",")); "")
-    <br>
+     - Coluna "Main Genre" <br><br>
+     Fórmula foi feita com a função "[`SPLIT`](https://support.google.com/docs/answer/3094136?hl=pt-BR)", para separar o primeiro gênero que é listado na string localizada na coluna "Genres", juntamente com o "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)", para retirar os espaços a mais na string, e também, com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)".
+      <br><br>
     <div align="center"> <br>
     <img width="450" alt="coluna_genero_principal" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/32a96e74-75a8-4602-89e6-acd04078503e">
       
     </div>
     <br> 
     
-      - Coluna "Second Genre" <br><br>
-        A fórmula utiliza as funções "[`EXT.TEXTO`](https://support.microsoft.com/pt-br/office/ext-texto-ext-textob-funções-ext-texto-ext-textob-d5f9e25c-d7d6-472e-b568-4ecb12433028)", que pega parte do texto em F após a posição indicada em G, "[`REGEXEXTRACT`](https://support.google.com/docs/answer/3098244?hl=en)", usada para extrair um padrão de texto que corresponda ao regex "([^,]+)", que significa qualquer sequência de caracteres que não contenha vírgulas, "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)" e "[`SEERRO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)" para extrair o segundo gênero da coluna "Genres", enquanto remove espaços em branco e caracteres não imprimíveis. Se ocorrer algum erro, a fórmula retorna uma string vazia como resultado.
-      <br>
-        - Fórmula: =SEERRO(ARRUMAR(REGEXEXTRACT(EXT.TEXTO(F2; NÚM.CARACT(G2)+2; NÚM.CARACT(F2)); "([^,]+)")); "")
-    <br>
+    - Coluna "Second Genre" <br><br>
+     A fórmula utiliza as funções "[`EXT.TEXTO`](https://support.microsoft.com/pt-br/office/ext-texto-ext-textob-funções-ext-texto-ext-textob-d5f9e25c-d7d6-472e-b568-4ecb12433028)", que pega parte do texto em F após a posição indicada em G, "[`REGEXEXTRACT`](https://support.google.com/docs/answer/3098244?hl=en)", usada para extrair um padrão de texto que corresponda ao regex "([^,]+)", que significa qualquer sequência de caracteres que não contenha vírgulas, "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)" e "[`SEERRO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)" para extrair o segundo gênero da coluna "Genres", enquanto remove espaços em branco e caracteres não imprimíveis. Se ocorrer algum erro, a fórmula retorna uma string vazia como resultado.
+    <br><br>
     <div align="center"> <br>
     <img width="450" alt="coluna_segundo_genero" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/efcb6d97-1561-42d3-8f20-1896be39da4b">
 
