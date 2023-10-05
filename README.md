@@ -21,7 +21,7 @@
 ##
 ### 🤿 Aula 1: Análise exploratória da base de dados e chatGPT
 #### Introdução 
-  A primeira aula da imersão apresenta o Kaggle como plataforma e utiliza uma base de dados de compras da Amazon para realizar uma análise exploratória. Além disso, o ChatGPT é introduzido como uma ferramenta auxiliar na geração de fórmulas básicas no Google Sheets. Foi disponibilizado uma base de dados "[`Amazon Sales Dataset`](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset) (traduzido para o português, Vendas da Amazon Dataset)", do Kaggle, com o intuito de acompanhar e realizar as atividades propostas durante a aula. 
+  A primeira aula da imersão apresenta o Kaggle como plataforma e utiliza uma base de dados de compras da Amazon para realizar uma análise exploratória. Além disso, o ChatGPT é introduzido como uma ferramenta auxiliar na geração de fórmulas básicas no Google Sheets. Foi disponibilizado uma base de dados "[`Amazon Sales Dataset`](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset)" (traduzido para o português, Vendas da Amazon Dataset), do Kaggle, com o intuito de acompanhar e realizar as atividades propostas durante a aula. 
 <br>
 #### Sobre a base de dados "Amazon Sales Dataset"
   Na planilha de dados da Amazon, havia as seguintes informações: 
