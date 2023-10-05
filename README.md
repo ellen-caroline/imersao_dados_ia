@@ -100,7 +100,7 @@
 <div> 
   <div> 
     
-  ![Visão geral do bando de dados "Amazon Sales Dataset". Colunas ](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
+  ![Visão geral do bando de dados "Amazon Sales Dataset". Possui as seguintes colunas: id_product (id do produto), product_name (nome do produto), category (categorias), category_geral (categoria principal oi geral), subcategory (subcategoria), actual_price (preço do produto atual, em rúpias indianas), product_price(preço do produto sem desconto), percent (porcentagem do desconto do produto), actual_price_real (preço atual do produto, em reais), rating (nota da avaliação do produto, valores vão de 0 a 5), rating_count (quantidade de avaliações do produto), about_product (informações do produto), product_link (link do produto), review_title (título da avaliação) e review_content (contpudo da avaliação). As colunas percent e rating estão coloridas em verde](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
   </div> <br>
   
   Note que a coluna "percent", que corresponde à porcentagem de desconto sobre o preço do produto, está colorida, e os tons da cor verde variam de acordo com o valor da célula. Isso se dá por conta da formatação condicional na célula. Optei por fazer quatro regras, sendo elas:
