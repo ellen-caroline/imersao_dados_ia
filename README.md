@@ -9,7 +9,7 @@
 </div>
 <div style="padding: 150">
   <p align="center">
-    <img align="center" width="250" alt="um mergulhador, tons escuros cinzentos e há um pequeno detalhe vermelho na roupa, e o fundo é transparente (png). Estilo: arte digital" target="_blank" src="/images/diver.png">
+    <img align="center" width="250" alt="um mergulhador, tons escuros cinzentos e há um pequeno detalhe vermelho na roupa, e o fundo é transparente (png). Estilo: arte digital." target="_blank" src="/images/diver.png">
   </p>
 </div>
 
@@ -86,7 +86,7 @@
 ##
 <div align="center">
   
-<img width="800" alt="Gif do fundo do mar com uma pessoa de cabelo comprido no centro para baixo. Possui um ecossistema com grande biodiversidade, há baleias . As baleias são da cor azul claro e estão nadando, bem ao fundo da imagem, direção de baixo para cima, e há peixes das cores azul claro, amarelo, laranja, branco e brilhante, nadando em diversas direções. Também há um recife de corais nas cores azul e verde e há plantas aquáticas. Estilo: arte digital" src="/images/gif_fundo_do_mar.gif">
+<img width="800" alt="Gif do fundo do mar com uma pessoa de cabelo comprido no centro para baixo. Possui um ecossistema com grande biodiversidade, há baleias . As baleias são da cor azul claro e estão nadando, bem ao fundo da imagem, direção de baixo para cima, e há peixes das cores azul claro, amarelo, laranja, branco e brilhante, nadando em diversas direções. Também há um recife de corais nas cores azul e verde e há plantas aquáticas. Estilo: arte digital." src="/images/gif_fundo_do_mar.gif">
   
 </div>
 
@@ -100,13 +100,13 @@
 <div> 
   <div> 
     
-  ![Visão geral do bando de dados "Amazon Sales Dataset". Possui as seguintes colunas: id_product (id do produto), product_name (nome do produto), category (categorias), category_geral (categoria principal oi geral), subcategory (subcategoria), actual_price (preço do produto atual, em rúpias indianas), product_price(preço do produto sem desconto), percent (porcentagem do desconto do produto), actual_price_real (preço atual do produto, em reais), rating (nota da avaliação do produto, valores vão de 0 a 5), rating_count (quantidade de avaliações do produto), about_product (informações do produto), product_link (link do produto), review_title (título da avaliação) e review_content (contpudo da avaliação). As colunas percent e rating estão coloridas em verde](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
+  ![Visão geral do bando de dados "Amazon Sales Dataset". Possui as seguintes colunas: id_product (id do produto), product_name (nome do produto), category (categorias), category_geral (categoria principal oi geral), subcategory (subcategoria), actual_price (preço do produto atual, em rúpias indianas), product_price(preço do produto sem desconto), percent (porcentagem do desconto do produto), actual_price_real (preço atual do produto, em reais), rating (nota da avaliação do produto, valores vão de 0 a 5), rating_count (quantidade de avaliações do produto), about_product (informações do produto), product_link (link do produto), review_title (título da avaliação) e review_content (contpudo da avaliação). As colunas percent e rating estão coloridas em verde.](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
   </div> <br>
   
   Note que a coluna "percent", que corresponde à porcentagem de desconto sobre o preço do produto, está colorida, e os tons da cor verde variam de acordo com o valor da célula. Isso se dá por conta da formatação condicional na célula. Optei por fazer quatro regras, sendo elas:
   <div align="center">
     <br>
-    <img width="260" alt="Formatação condicional. Nela, há quatro condições: a primeira é da cor rosa pálido e sua condição é 'Valor é igual ou maior que 99%', a segunda é verde escuro dessaturado e sua condição é 'Valor é igual ou maior que 75%', a terceira é um verde mais claro que o anterior e sua condição é 'Valor é igual ou maior que 50%', e a quarta e última é um verde ainda mais claro que o anterior e sua condição é 'Valor é igual ou maior que 25%'. Dessa forma, números menores que 25% ficam com a célula branca" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/95b2b6f9-2931-4664-8e6e-2f6b00fbbd2c" target="_blank">
+    <img width="260" alt="Formatação condicional. Nela, há quatro condições: a primeira é da cor rosa pálido e sua condição é 'Valor é igual ou maior que 99%', a segunda é verde escuro dessaturado e sua condição é 'Valor é igual ou maior que 75%', a terceira é um verde mais claro que o anterior e sua condição é 'Valor é igual ou maior que 50%', e a quarta e última é um verde ainda mais claro que o anterior e sua condição é 'Valor é igual ou maior que 25%'. Dessa forma, números menores que 25% ficam com a célula branca." src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/95b2b6f9-2931-4664-8e6e-2f6b00fbbd2c" target="_blank">
   </div> <br><br>
 </div>
 <div>
@@ -137,37 +137,35 @@ Para enriquecer ainda mais a base de dados, foram adicionadas várias novas info
 - Antes das modificações
 
   <div align="center"> <br>
-    <img alt="bd_imdb_movies_sem_modificacoes" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/57ab6f74-ab6f-48e0-bdfa-ff50f5683ee5" target="_blank">
+    <img alt="Banco de dados 'Top 1000 IMDb Movies' antes de ser modificado" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/57ab6f74-ab6f-48e0-bdfa-ff50f5683ee5" target="_blank">
   </div> <br>
   
 - Depois das modificações
   
   <div align="center"> <br>
-    <img alt="bd_imdb_movies" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d99b91e7-5ae2-4f23-a1eb-cc66629e8976" target="_blank">
+    <img alt="Banco de dados 'Top 1000 IMDb Movies' depois de modificado, com colunas e informações adicionadas, que serão explicadas mais detalhadamente abaixo." src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d99b91e7-5ae2-4f23-a1eb-cc66629e8976" target="_blank">
   </div> <br>
 Mais detalhes de cada modificação: <br><br>
 - Coluna "Movie Name Language" <br>
   
   A fórmula foi criada utilizando os comandos "[`DETECT LANGUAGE`](https://support.google.com/docs/answer/3093278?hl=en)" para detecção de idioma e "[`MAIÚSCULA`](https://support.google.com/docs/answer/3094219?hl=pt-BR)" para converter o texto em letras maiúsculas. <br>
-  - Fórmula:
   <br><br>
   <div align="center">
-  <img width="450" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/755093c7-38a3-47e1-a68a-7528fd54dea8">
+  <img width="450" alt="Coluna 'Movie Name Language', mostra a seguinte fórmula nas células: =MAIÚSCULA(DETECTLANGUAGE(B2))." src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/755093c7-38a3-47e1-a68a-7528fd54dea8">
   </div> <br>
 
 - Coluna "Genres" <br><br>
-  Procurei outra base de dados que possuísse os gêneros dos filmes e acabei encontrando uma chamada "[`IMDB movies dataset`](https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset)" que continha a maioria dos filmes da base de dados original, fiz um "[`VLOOKUP`](https://support.google.com/docs/answer/3093318?hl=en)" (mais conhecido como PROCV), em conjunto com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)", para adicionar os gêneros existentes da nova base de dados para a antiga, e os que ficaram com o valor zero, acabei colocando manualmente mesmo.    <br>
-  - Fórmula: 
+  Foi feita utilizando outra base de dados que possuísse os gêneros dos filmes e acabei encontrando uma chamada "[`IMDB movies dataset`](https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset)" que continha a maioria dos filmes da base de dados original. Na fórmula, para extrair os gêneros dos filmes que tinha na base de dados original, utilizei "[`VLOOKUP`](https://support.google.com/docs/answer/3093318?hl=en)" (mais conhecido como PROCV), em conjunto com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)", com o objetivo de adicionar os gêneros existentes da nova base de dados para a antiga. E os que ficaram com o valor zero, acabei colocando manualmente mesmo.    <br>
   <br>
     <div align="center">
-    <img width="650" alt="coluna_genero_filme" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/e0f90643-f244-4631-99ca-b543bada1cf1"> <br>
+    <img width="650" alt="Coluna 'Genres', mostra a seguinte fórmula: =SEERRO(SE(PROCV(B2;$A$2:$A$1001;1;FALSO) = B2; PROCV(A2;$B$2:$C$1001;2;FALSO); 0);0)." src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/e0f90643-f244-4631-99ca-b543bada1cf1"> <br>
     </div><br>
 
      - Coluna "Main Genre" <br><br>
      Fórmula foi feita com a função "[`SPLIT`](https://support.google.com/docs/answer/3094136?hl=pt-BR)", para separar o primeiro gênero que é listado na string localizada na coluna "Genres", juntamente com o "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)", para retirar os espaços a mais na string, e também, com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)".
       <br><br>
     <div align="center"> <br>
-    <img width="650" alt="coluna_genero_principal" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/32a96e74-75a8-4602-89e6-acd04078503e">
+    <img width="650" alt="Coluna 'Main Genre', mostra a seguinte fórmula nas células: =SEERRO(ARRUMAR(SPLIT(F2; ',')); ''). Observação: As aspas simples na realidade são duplas." src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/32a96e74-75a8-4602-89e6-acd04078503e">
       
     </div>
     <br> 
