@@ -165,7 +165,7 @@ Mais detalhes de cada modificação: <br><br>
      Fórmula foi feita com a função "[`SPLIT`](https://support.google.com/docs/answer/3094136?hl=pt-BR)", para separar o primeiro gênero que é listado na string localizada na coluna "Genres", juntamente com o "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)", para retirar os espaços a mais na string, e também, com o "[`SEEROO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)".
       <br><br>
     <div align="center"> <br>
-    <img width="650" alt="Coluna 'Main Genre', mostra a seguinte fórmula nas células: =SEERRO(ARRUMAR(SPLIT(F2; ',')); ''). Observação: As aspas simples na realidade são duplas." src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/32a96e74-75a8-4602-89e6-acd04078503e">
+    <img width="650" alt="Coluna 'Main Genre', mostra a seguinte fórmula nas células: =SEERRO(ARRUMAR(SPLIT(F2; ',')); ''). Observação: As aspas simples na realidade são aspas duplas." src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/32a96e74-75a8-4602-89e6-acd04078503e">
       
     </div>
     <br> 
@@ -179,13 +179,18 @@ Mais detalhes de cada modificação: <br><br>
     </div>
     <br>
   
-    - Coluna "Third Genre" <br>
-    
-    <br>
+    - Coluna "Third Genre" <br><br>
+    Essa fórmula extrai o terceiro gênero da coluna 'Genres' (coluna F) e o coloca na coluna I. Se não houver terceiro gênero, a célula na coluna I ficará em branco (string vazia). A função "[`EXT.TEXTO`](https://support.google.com/docs/answer/3094129?hl=pt-BR)MID(F2, LEN(G2) + LEN(H2) + 3, LEN(F2))" isola a parte da célula 'Genres' que contém o terceiro gênero, começando após os dois primeiros gêneros e as vírgulas. A "[`REGEXEXTRACT`](https://support.google.com/docs/answer/3098244?hl=pt-BR&sjid=7725968779022548553-SA)" foi utilizada para encontrar um trecho de texto que corresponda ao padrão de expressão regular "([^,]+)", que significa "um ou mais caracteres que não são vírgulas". Isso captura o terceiro gênero da string extraída. E, sempre em conjunto, a função "[`SEERRO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)" e "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)".
 
+    <br>
+    <div align="center"> <br>
+    <img width="650" alt="Coluna terceiro gênero, mostra a função SEERRO(ARRUMAR(REGEXEXTRACT(EXT.TEXTO(F2; NÚM.CARACT(G2)+NÚM.CARACT(H2)+3; NÚM.CARACT(F2)); '([^,]+)')); ''). Observação: As aspas simples na realidade são aspas duplas." src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/a6c008b8-197d-4c9e-9b5e-682413e8212e">
+
+   </div>
+  <br>
   
   <div>
-Informações da base de dados:
+De maneira geral e resumida, essas são as informações da base de dados:
     
 - Position: posição da classificação do filme (de 1 a 1000)
 - Movie Name: Nome do filme
