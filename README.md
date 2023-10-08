@@ -207,7 +207,7 @@ De maneira geral e resumida, essas são as informações da base de dados:
 - Director: Diretor do filme (será preenchido em breve, e gráficos com essas informações serão desenvolvidos)
 - Description: Descrição/Sinopse do filme 
 
-
+<br>
   <div align="center">
     <img width="400" alt="chatGPT_instrucoes2" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/4f18a7f7-18ab-4d22-9196-ea2ca7e3eead" target="_blank">
   </div> <br>
