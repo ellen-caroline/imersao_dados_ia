@@ -208,7 +208,7 @@ De maneira geral e resumida, essas são as informações da base de dados:
 - Description: Descrição/Sinopse do filme 
 
 
-  <br> <div align="center">
+  <div align="center">
     <img width="400" alt="chatGPT_instrucoes2" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/4f18a7f7-18ab-4d22-9196-ea2ca7e3eead" target="_blank">
   </div> <br>
   Após concluir a etapa de limpeza de dados, conforme orientação do ChatGPT, prossegui com a execução dos passos sugeridos no processo de análise. Estes incluíram a criação de um resumo estatístico para obter informações concisas das colunas relevantes, a geração de visualizações gráficas para tornar os dados mais compreensíveis, a aplicação de filtros para explorar informações específicas com base em critérios definidos e a condução de uma análise de tendências para identificar possíveis correlações e padrões subjacentes nos dados. Essa abordagem me permitiu obter insights valiosos para o projeto de forma abrangente.
