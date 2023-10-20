@@ -174,7 +174,7 @@ Mais detalhes de cada modificação: <br><br>
      A fórmula utiliza as funções "[`EXT.TEXTO`](https://support.microsoft.com/pt-br/office/ext-texto-ext-textob-funções-ext-texto-ext-textob-d5f9e25c-d7d6-472e-b568-4ecb12433028)", que pega parte do texto em F após a posição indicada em G, "[`REGEXEXTRACT`](https://support.google.com/docs/answer/3098244?hl=en)", usada para extrair um padrão de texto que corresponda ao regex "([^,]+)", que significa qualquer sequência de caracteres que não contenha vírgulas, "[`ARRUMAR`](https://support.google.com/docs/answer/3094140?hl=pt-BR&sjid=6982433507484744947-SA)" e "[`SEERRO`](https://support.google.com/docs/answer/3093304?hl=pt-BR)" para extrair o segundo gênero da coluna "Genres", enquanto remove espaços em branco e caracteres não imprimíveis. Se ocorrer algum erro, a fórmula retorna uma string vazia como resultado.
     <br><br>
     <div align="center"> <br>
-    <img width="650" alt="coluna_segundo_genero" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/efcb6d97-1561-42d3-8f20-1896be39da4b">
+    <img width="650" alt="Coluna segundo gênero" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/efcb6d97-1561-42d3-8f20-1896be39da4b">
 
     </div>
     <br>
@@ -209,12 +209,12 @@ De maneira geral e resumida, essas são as informações da base de dados:
 
 <br>
   <div align="center">
-    <img width="400" alt="chatGPT_instrucoes2" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/4f18a7f7-18ab-4d22-9196-ea2ca7e3eead" target="_blank">
+    <img width="400" alt="Segunda parte de uma conversa com o chatGPT. O ChatGPT instrui a fazer" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/4f18a7f7-18ab-4d22-9196-ea2ca7e3eead" target="_blank">
   </div> <br>
   Após concluir a etapa de limpeza de dados, conforme orientação do ChatGPT, prossegui com a execução dos passos sugeridos no processo de análise. Estes incluíram a criação de um resumo estatístico para obter informações concisas das colunas relevantes, a geração de visualizações gráficas para tornar os dados mais compreensíveis, a aplicação de filtros para explorar informações específicas com base em critérios definidos e a condução de uma análise de tendências para identificar possíveis correlações e padrões subjacentes nos dados. Essa abordagem me permitiu obter insights valiosos para o projeto de forma abrangente.
   <br><br><br>
   <div align="center">
-    <img width="400" alt="chatGPT_instrucoes3" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d31e37f3-9eb4-4c8f-9a2d-ca06a6603062">
+    <img width="400" alt="Terceira parte de uma conversa com o chatGPT. O ChatGPT instrui a fazer" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d31e37f3-9eb4-4c8f-9a2d-ca06a6603062">
   </div><br>
   Depois da criação de elementos visuais, coloquei algumas conclusões e assim finalizei a atividade.
 </div><br><br>
@@ -243,7 +243,7 @@ De maneira geral e resumida, essas são as informações da base de dados:
 
 ##
 ### 🗃️ Organização do repositório
-#### Overview
+#### Visão geral
 
 #### Pasta "bd_amazon"
 ![base_dados_amazon_dados](https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/8e838385-7cbc-4403-955a-754ae8298ea8)
