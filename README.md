@@ -217,7 +217,7 @@ De maneira geral e resumida, essas são as informações da base de dados:
     <img width="400" alt="chatGPT_instrucoes3" src="https://github.com/ellen-caroline/imersao_dados_ia/assets/106993186/d31e37f3-9eb4-4c8f-9a2d-ca06a6603062">
   </div><br>
   Depois da criação de elementos visuais, coloquei algumas conclusões e assim finalizei a atividade.
-</div>
+</div><br><br>
 </div> 
 
 #### 👩‍💻 Aula 2: Manipule planilhas e crie gráficos com ajuda da IA
