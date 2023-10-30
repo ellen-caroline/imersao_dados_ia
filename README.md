@@ -268,7 +268,7 @@ De maneira geral e resumida, essas são as informações da base de dados:
 #### Pasta contendo recursos visuais utilizadas no README 
 
 ##
-### 📑 Melhorias futuras para o projeto
+### 📑 Próximos passos
 #### bd_amazon_products_imersao
 - Criar tabelas dinâmicas
 - Colocar diferentes tipos de gráficos
